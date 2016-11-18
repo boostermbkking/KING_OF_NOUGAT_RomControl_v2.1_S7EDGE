@@ -61,6 +61,4 @@
             wubydax:maxValue="255"
             wubydax:minValue="0"/>
     </PreferenceCategory>
-
-
 </PreferenceScreen>

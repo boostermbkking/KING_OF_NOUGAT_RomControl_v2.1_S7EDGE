@@ -16,7 +16,7 @@
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Phone Info" android:summary="Info About Phone" app:componentName="org.vndnguyen.phoneinfo/org.vndnguyen.phoneinfo.main" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="BetterBatteryStats" android:summary="Info about Battery Drain" app:componentName="com.asksven.betterbatterystats_xdaedition/com.asksven.betterbatterystats.StatsActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="UPSM Manager" android:summary="Add more app to UPSM Mode" app:componentName="mobi.xperiacle.upsm.manager/mobi.xperiacle.upsm.manager.MainActivity" />
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Synapse" android:summary="Manage Kernel Settings" app:componentName="com.af.synapse/com.af.synapse.MainActivity" />-->
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Synapse" android:summary="Manage Kernel Settings" app:componentName="com.af.synapse/com.af.synapse.MainActivity" />
 </PreferenceCategory>
     <PreferenceCategory android:title="Sound Control">
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Dolby Atmos" android:summary="Set Audio Filter for KING ROM" app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
