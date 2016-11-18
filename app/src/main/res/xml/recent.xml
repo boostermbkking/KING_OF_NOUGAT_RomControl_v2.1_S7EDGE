@@ -9,4 +9,5 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Free RAM Text Color" android:key="ram_color1" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Used RAM Text Color" android:key="ram_color2" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>

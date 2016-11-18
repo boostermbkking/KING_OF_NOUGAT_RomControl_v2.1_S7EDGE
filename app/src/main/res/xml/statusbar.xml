@@ -90,4 +90,5 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Data Icon Color" android:key="statusbar_data_color" android:summary="3G/4G/LTE data icon color" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notification Icons Color" android:key="statusbar_icon_color" android:summary="Volume, bluetooth, popups, etc.." android:defaultValue="-1" hexValue="true" alphaSlider="true" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>

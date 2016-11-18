@@ -15,4 +15,5 @@
     <PreferenceCategory android:title="Hide Text in LockScreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Swipe screen... text" android:key="unlock_guide_text" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>

@@ -24,4 +24,5 @@
             </PreferenceCategory>
         </PreferenceScreen>
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>

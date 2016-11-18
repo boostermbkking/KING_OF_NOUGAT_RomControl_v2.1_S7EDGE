@@ -13,4 +13,5 @@
 	<PreferenceCategory android:title="USB WakeUp">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>

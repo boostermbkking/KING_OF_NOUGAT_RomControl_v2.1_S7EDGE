@@ -5,4 +5,5 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Incoming auto call record" android:key="auto_call_record_in" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" app:packageNameToKill="com.android.InCallUI" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Outgoing auto call record" android:key="auto_call_record_out" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" app:packageNameToKill="com.android.InCallUI" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>

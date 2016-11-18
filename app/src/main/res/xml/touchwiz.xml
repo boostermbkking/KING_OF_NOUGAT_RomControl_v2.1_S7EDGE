@@ -9,4 +9,5 @@
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/launcher_gesture_entries" android:title="Swipe Up" android:key="swipe_up" android:summary="%s" android:entryValues="@array/launcher_gesture_values" app:rebootDevice="true" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/launcher_gesture_entries" android:title="Swipe Down" android:key="swipe_down" android:summary="%s" android:entryValues="@array/launcher_gesture_values" app:rebootDevice="true" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Coming Soon" />
 </PreferenceScreen>
