@@ -67,6 +67,7 @@
             android:title="Switch reminding of need to reboot"
             app:rebootDevice="true"/>
 
+        
         <!--We can use kill app on checkboxes as well. Same goes for rebootDevice-->
         <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
             android:defaultValue="true"
