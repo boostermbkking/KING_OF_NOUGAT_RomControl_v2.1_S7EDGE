@@ -24,5 +24,13 @@
             </PreferenceCategory>
         </PreferenceScreen>
     </PreferenceCategory>-->
-    <PreferenceCategory android:title="Coming Soon" />
+    <PreferenceCategory android:title="Button Key Light" >
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:defaultValue="3000"
+        android:key="button_key_light"
+        android:entries="@array/button_key_light_entries"
+        android:entryValues="@array/button_key_light_values"
+        android:summary="%s"
+        android:title="Keyboard backlight duration"/>
+    </PreferenceCategory>
 </PreferenceScreen>
