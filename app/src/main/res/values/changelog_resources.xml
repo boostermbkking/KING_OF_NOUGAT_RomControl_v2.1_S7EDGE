@@ -9,22 +9,17 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>BASED ON BETA 3 ZPKK FIRMWARE</item>
+        <item>BASED ON BETA 4 ZPL3 FIRMWARE</item>
         <item>ALL MODS FROM PREVIOUS VERSION</item>
-        <item>ADD SuperSU V2.78-SR4 IN AROMA</item>
-        <item>ADD REBOOT RECOVERY IN POWER MENU WITH TOGGLE IN KING MODS</item>
-        <item>ADD REMOVE EMERGENCY MODE TOGGLE IN KING MODS</item>
-        <item>ADD USB PLUG/UNPLUG WAKE UP TOGGLE IN KING MODS</item>
-        <item>DISABLED SIGNATURE CHECK</item>
-        <item>UNLOCK WITH FINGERPRINT AFTER REBOOT</item>
-        <item>REMOVED CONFIRM BUTTONS IN POWER MENU</item>
+        <item>ADD SuperSU V2.78-SR5 IN AROMA</item>
+        <item>ADD TRAFFIC METER IN STATUSBAR</item>
         <item>AND MUCH MORE...</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">KING OF NOUGAT V3</string>
+    <string name="rom_version_for_changelog">KING OF NOUGAT V4</string>
 
 
 </resources>

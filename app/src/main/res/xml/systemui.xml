@@ -24,7 +24,7 @@
             </PreferenceCategory>
         </PreferenceScreen>
     </PreferenceCategory>-->
-    <PreferenceCategory android:title="Button Key Light" >
+    <PreferenceCategory android:title="Button Key Light">
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:defaultValue="3000"
         android:key="button_key_light"
