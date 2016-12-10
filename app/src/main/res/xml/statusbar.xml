@@ -4,10 +4,6 @@
     <!--<PreferenceCategory android:title="Status Bar Mods">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Single swipe for Quickpanel" android:key="tweaks_qs_pulldown" android:defaultValue="true" android:summaryOn="Feature is enabled" android:summaryOff="Feature is disabled" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Switch Battery Style">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Stock Battery" android:key="hide_battery_stock" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    </PreferenceCategory>
     <PreferenceCategory android:title="Status Bar Icon Color">
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="StatusBar icon colors" android:key="sb_icon_color" android:defaultValue="\#ffffffff" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>
@@ -64,6 +60,18 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Signalbar Icon Color" android:key="statusbar_signal_color" android:summary="Select color of signalbars" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Data Icon Color" android:key="statusbar_data_color" android:summary="3G/4G/LTE data icon color" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notification Icons Color" android:key="statusbar_icon_color" android:summary="Volume, bluetooth, popups, etc.." android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Clock Settings" android:summary="Custom Clock Settings">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show Clock and Date" android:key="status_bar_clock" android:defaultValue="true" android:summaryOn="Clock shown" android:summaryOff="Clock hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Uppercase Text Clock" android:key="normal_upper" android:dependency="status_bar_clock" android:defaultValue="false" android:summaryOn="Uppercase enabled" android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_format_entries" android:title="Clock Format" android:key="statusbar_clock_format" android:dependency="status_bar_clock" android:defaultValue="1" android:entryValues="@array/clock_format_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_style_entries" android:title="Clock Location" android:key="statusbar_clock_style" android:dependency="status_bar_clock" android:defaultValue="0" android:entryValues="@array/clock_style_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/entries_status_bar_am_pm" android:title="Clock AM/PM" android:key="statusbar_clock_am_pm_style" android:dependency="status_bar_clock" android:defaultValue="2" android:entryValues="@array/values_status_bar_am_pm" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_font_style_entries" android:title="Clock Font Style" android:key="statusbar_clock_font_style" android:dependency="status_bar_clock" android:defaultValue="5" android:entryValues="@array/clock_font_style_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Clock Scaling" android:key="statusbar_clock_scale" android:summary="Adjust clock size" android:dependency="status_bar_clock" android:defaultValue="15" app:minValue="5" app:maxValue="25" app:unitsValue="dp" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_date_display_entries" android:title="Date Display Type" android:key="statusbar_clock_date_display" android:dependency="status_bar_clock" android:defaultValue="0" android:entryValues="@array/clock_date_display_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_date_style_entries" android:title="Date Style" android:key="statusbar_clock_date_style" android:dependency="status_bar_clock" android:defaultValue="0" android:entryValues="@array/clock_date_style_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_date_format_entries_values" android:title="Date Format" android:key="statusbar_clock_date_format" android:dependency="status_bar_clock" android:defaultValue="EEE" android:entryValues="@array/clock_date_format_entries_values" />
     </PreferenceCategory>-->
     <PreferenceCategory
         android:title="Network traffic preferences">
@@ -75,5 +83,9 @@
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Autohide threshold" app:unitsValue="Kb" app:maxValue="100" android:key="network_traffic_threshold" android:defaultValue="10" android:dependency="network_traffic_autohide"/>
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:title="Font style" android:key="network_traffic_text_style" android:defaultValue="0" android:entries="@array/traffic_style_entries" android:entryValues="@array/traffic_style_entry_values"/>
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Text size scale factor" android:key="network_traffic_scale" app:maxValue="10" android:defaultValue="10"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Switch Battery Style">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Stock Battery" android:key="hide_battery_stock" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>
 </PreferenceScreen>
