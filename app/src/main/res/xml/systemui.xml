@@ -4,26 +4,51 @@
     <!--<PreferenceCategory android:title="Number of Toggles in a Row">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="QSPanel_NumberCount" android:summary="Number shown on screen" android:entryValues="@array/toggle_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_scroll_entries" android:title="Scrollable Toggles Shown" android:key="sysui_qs_active_tiles" android:summary="Scrolling toggle number" android:defaultValue="10" android:entryValues="@array/toggle_scroll_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    </PreferenceCategory>
-    <PreferenceCategory android:title="Device info settings">
-        <PreferenceScreen android:title="Device info customization">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Enable device info view" android:key="device_info_visibility" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-            <PreferenceCategory android:title="Text colors" android:dependency="device_info_visibility">
-                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Info names text color" android:key="gear_info_names_color" android:defaultValue="\#ffffffff" />
-                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Info values text color" android:key="gear_info_values_color" android:defaultValue="\#ffffffff" />
-            </PreferenceCategory>
-            <PreferenceCategory android:title="Device Info Items" android:dependency="device_info_visibility">
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Device model" android:key="device_model" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Android version" android:key="device_android_version" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Build version" android:key="device_build_version" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Battery level" android:key="device_battery_level" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Network name" android:key="device_network_name" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="WIFI info" android:key="device_wifi_info" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Next alarm" android:key="device_next_alarm" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Device up time" android:key="device_up_time" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
-            </PreferenceCategory>
-        </PreferenceScreen>
     </PreferenceCategory>-->
+    <PreferenceCategory android:title="Device info customization">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Enable device info view" android:key="device_info_visibility" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Text colors" android:dependency="device_info_visibility">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Info names text color" android:key="gear_info_names_color" android:defaultValue="\#ffffffff" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Info values text color" android:key="gear_info_values_color" android:defaultValue="\#ffffffff" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Device Info Items" android:dependency="device_info_visibility">
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Device model" android:key="device_model" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Android version" android:key="device_android_version" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Build version" android:key="device_build_version" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Battery level" android:key="device_battery_level" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Network name" android:key="device_network_name" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="WIFI info" android:key="device_wifi_info" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Next alarm" android:key="device_next_alarm" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Device up time" android:key="device_up_time" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Carrier label text preferences">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Carrier label visibility"
+            android:defaultValue="true"
+            android:summaryOff="Hidden"
+            android:summaryOn="Shown"
+            android:key="carrier_label_visibility"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:dependency="carrier_label_visibility"
+            android:defaultValue="#ffffff"
+            android:key="carrier_label_text_color"
+            android:title="Carrier label text color"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Carrier label text"
+            android:entries="@array/carrier_entries"
+            android:entryValues="@array/carrier_entry_values"
+            android:defaultValue="0"
+            app:dependentValue="0"
+            android:key="is_custom_carrier_label"
+            android:dependency="carrier_label_visibility"/>
+        <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+            android:title="Custom text for carrier label"
+            android:defaultValue="Custom Text"
+            android:dependency="is_custom_carrier_label"
+            android:key="custom_carrier_label"/>
+    </PreferenceCategory>
     <PreferenceCategory android:title="Button Key Light">
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:defaultValue="3000"

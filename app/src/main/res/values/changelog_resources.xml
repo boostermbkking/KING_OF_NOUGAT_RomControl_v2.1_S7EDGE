@@ -9,17 +9,13 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>BASED ON BETA 4 ZPL3 FIRMWARE</item>
-        <item>ALL MODS FROM PREVIOUS VERSION</item>
-        <item>ADD SuperSU V2.78-SR5 IN AROMA</item>
-        <item>ADD TRAFFIC METER IN STATUSBAR</item>
-        <item>AND MUCH MORE...</item>
+        <item>CHECK XDA THREAD FOR LATEST CHANGELOG</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">KING OF NOUGAT V4</string>
+    <string name="rom_version_for_changelog">KING OF NOUGAT</string>
 
 
 </resources>
