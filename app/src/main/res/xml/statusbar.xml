@@ -52,6 +52,9 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Data usage text color" android:key="data_usage_text_color" android:dependency="data_usage_visibility" android:defaultValue="\#e61e4e78" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_gravity_entries" android:title="Data usage text gravity" android:key="data_usage_text_gravity" android:dependency="data_usage_visibility" android:defaultValue="0" android:entryValues="@array/data_usage_gravity_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Data usage text style" android:key="data_usage_view_text_style" android:dependency="data_usage_visibility" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="3Minit Battery Activation">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>-->
     <PreferenceCategory
         android:title="Network traffic preferences">
@@ -63,9 +66,6 @@
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Autohide threshold" app:unitsValue="Kb" app:maxValue="100" android:key="network_traffic_threshold" android:defaultValue="10" android:dependency="network_traffic_autohide"/>
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:title="Font style" android:key="network_traffic_text_style" android:defaultValue="0" android:entries="@array/traffic_style_entries" android:entryValues="@array/traffic_style_entry_values"/>
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Text size scale factor" android:key="network_traffic_scale" app:maxValue="10" android:defaultValue="10"/>
-    </PreferenceCategory>
-    <PreferenceCategory android:title="3Minit Battery Activation">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Battery Bar">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
