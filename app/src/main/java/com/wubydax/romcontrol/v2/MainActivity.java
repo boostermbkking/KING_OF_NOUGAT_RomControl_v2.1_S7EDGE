@@ -2,6 +2,7 @@ package com.wubydax.romcontrol.v2;
 
 import android.app.FragmentManager;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
@@ -11,6 +12,7 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -23,6 +25,8 @@ import com.wubydax.romcontrol.v2.utils.MyDialogFragment;
 import com.wubydax.romcontrol.v2.utils.SuTask;
 
 import java.util.ArrayList;
+
+import static com.wubydax.romcontrol.v2.R.drawable.iconexit;
 
 /*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
         This program is free software: you can redistribute it and/or modify
@@ -109,12 +113,28 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer != null && drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setMessage(getString(R.string.exit));
+        alert.setTitle("KING ROM S7 EDGE");
+        alert.setIcon(iconexit);
+        alert.setCancelable(true);
+        alert.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int which) {
+                finish();
+            }
+        });
+
+        alert.setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+
+        AlertDialog dialog = alert.create();
+        //dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.RED));
+        dialog.show();
     }
 
     @Override

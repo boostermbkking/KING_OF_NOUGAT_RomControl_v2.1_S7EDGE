@@ -83,6 +83,9 @@
     <string name="dynamic_status_bar_gradient_summary">Overlay a gradient on the status bar</string>
     <string name="dynamic_status_bar_gradient_title">Gradient</string>
     <string name="dynamic_status_bar_title">Dynamic status bar</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit"> Do you want to close the app?</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>
