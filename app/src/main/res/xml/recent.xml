@@ -3,11 +3,10 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <!--<PreferenceCategory android:title="RECENT PANEL OPTIONS">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Recent Panel Quick Launch" android:key="recents_quick_launch_toggle" android:defaultValue="false" android:summaryOn="Quick Launch is shown" android:summaryOff="Quick Launch is hidden" />
-    </PreferenceCategory>
-    <PreferenceCategory android:title="RAM BAR OPTION">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Ram Bar" android:key="ram_bar" android:defaultValue="1" android:summaryOn="Ram Bar is shown in Recent Apps" android:summaryOff="Ram Bar is hidden in Recent Apps" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Free RAM Text Color" android:key="ram_color1" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Used RAM Text Color" android:key="ram_color2" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>-->
-    <PreferenceCategory android:title="Coming Soon" />
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="RAM BAR OPTION">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Ram Bar" android:key="phr_aokpram" android:defaultValue="1" android:summaryOn="Ram Bar is shown in Recent Apps" android:summaryOff="Ram Bar is hidden in Recent Apps" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Free RAM Text Color" android:key="ram_color_free" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Used RAM Text Color" android:key="ram_color_used" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -13,10 +13,11 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-	<color name="colorPrimary">#33b5e5</color>
-	<color name="colorPrimaryDark">#33b5e5</color>
-	<color name="colorAccent">#33b5e5</color>
+	<color name="colorPrimary">#273238</color>
+	<color name="colorPrimaryDark">#ff273238</color>
+	<color name="colorAccent">#FF009184</color>
 	<color name="darkBgColor">#000000</color>
+	<color name="darkblue">#2962FF</color>
 	<color name="nav_drawer_default_color">?android:textColorPrimary</color>
 	<drawable name="transparentBg">#0000</drawable>
 </resources>

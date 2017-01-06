@@ -14,6 +14,9 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="Hide Text in LockScreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Swipe screen... text" android:key="unlock_guide_text" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Rotation Lockscreen">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lockscreen Rotation" android:key="lockscreen_rotate" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>-->
-    <PreferenceCategory android:title="Coming Soon" />
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Coming Soon"></PreferenceCategory>
 </PreferenceScreen>

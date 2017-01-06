@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="King Rom Apps">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="King Rom Apps">
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:icon="@drawable/ks7" android:title="KING ROM S7 EDGE" android:summary="Download Mod and Tweaks for KING ROM" app:componentName="com.boostermbkking.kingroms7edge/com.boostermbkking.kingroms7edge.MainActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="3Minit Battery" android:summary="Manage Battery Icon in StatusBar" app:componentName="com.three.minit.minitbatterysettings.free/com.three.minit.minitbatterysettings.MainActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="3Minit Clock" android:summary="Manage Clock Icon in StatusBar" app:componentName="three.minit.clock/three.minit.clock.ClockSettings" />
@@ -9,18 +9,18 @@
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:icon="@drawable/toolbox" android:title="ToolBox Settings" android:summary="Manage apps in toolbox" app:componentName="com.wubydax.toolboxsettings/com.wubydax.toolboxsettings.ToolboxSettings" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="OTA Updater" android:summary="Manage OTA Updater" app:componentName="com.otaupdater/com.otaupdater.OTAUpdaterActivity" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Usefull Apps">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Usefull Apps">
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Phone Info" android:summary="Info About Phone" app:componentName="org.vndnguyen.phoneinfo/org.vndnguyen.phoneinfo.main" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="BetterBatteryStats" android:summary="Info about Battery Drain" app:componentName="com.asksven.betterbatterystats_xdaedition/com.asksven.betterbatterystats.StatsActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="UPSM Manager" android:summary="Add more app to UPSM Mode" app:componentName="mobi.xperiacle.upsm.manager/mobi.xperiacle.upsm.manager.MainActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Synapse" android:summary="Manage Kernel Settings" app:componentName="com.af.synapse/com.af.synapse.MainActivity" />
 </PreferenceCategory>
-    <PreferenceCategory android:title="Root Apps">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Root Apps">
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="SuperSU" android:summary="Manage SU Permissions" app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Magisk Root" android:summary="Manage Systemless Package" app:componentName="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="PHH SuperUser" android:summary="Manage SU Permissions" app:componentName="me.phh.superuser/com.koushikdutta.superuser.MainActivity" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Sound Control">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Sound Control">
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Dolby Atmos" android:summary="Set Audio Filter for KING ROM" app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Viper4Android" android:summary="Set Audio Filter for KING ROM" app:componentName="com.vipercn.viper4android_v2/com.vipercn.viper4android_v2.activity.ViPER4Android" />
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Viper4Android FX" android:summary="Set Audio Filter for KING ROM" app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" />
