@@ -5,8 +5,11 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Recent Panel Quick Launch" android:key="recents_quick_launch_toggle" android:defaultValue="false" android:summaryOn="Quick Launch is shown" android:summaryOff="Quick Launch is hidden" />
     </PreferenceCategory>-->
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="RAM BAR OPTION">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Ram Bar" android:key="phr_aokpram" android:defaultValue="1" android:summaryOn="Ram Bar is shown in Recent Apps" android:summaryOff="Ram Bar is hidden in Recent Apps" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Free RAM Text Color" android:key="ram_color_free" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Used RAM Text Color" android:key="ram_color_used" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ram" android:title="Ram Bar" android:key="phr_aokpram" android:defaultValue="1" android:summaryOn="Ram Bar is shown in Recent Apps" android:summaryOff="Ram Bar is hidden in Recent Apps" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram2" android:title="Free RAM Text Color" android:key="ram_color_free" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram3" android:title="Used RAM Text Color" android:key="ram_color_used" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Recent Panel Options">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/master_ball" android:title="Recent Panel Quick Launch" android:key="recents_quick_launch_toggle" android:defaultValue="false" android:summaryOn="Quick Launch is shown" android:summaryOff="Quick Launch is hidden" />
     </PreferenceCategory>
 </PreferenceScreen>

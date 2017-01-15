@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="POWER OFF TOGGLE">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Power Off Button" android:key="power_menu_power" android:defaultValue="true" android:summaryOn="Power Off will be shown" android:summaryOff="Currently removed" />
-    </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="REBOOT RECOVERY TOGGLE">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Reboot Recovery Button" android:key="reboot_recovery" android:defaultValue="true" android:summaryOn="Reboot Recovery will be shown" android:summaryOff="Currently removed" />
-    </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="EMERGENCY MODE TOGGLE">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Emergency Mode Button" android:key="power_emergency" android:defaultValue="false" android:summaryOn="Emergency mode will be shown" android:summaryOff="Currently removed" />
-    </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="USB Plug/Unplug WAKE UP TOGGLE" >
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-    </PreferenceCategory>
     <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="AOD brightness" >
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="AOD brightness" android:key="aod_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
     </PreferenceCategory>-->
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="POWER OFF TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/power" android:title="Power Off Button" android:key="power_menu_power" android:defaultValue="true" android:summaryOn="Power Off will be shown" android:summaryOff="Currently removed" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="REBOOT RECOVERY TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/king_recovery" android:title="Reboot Recovery Button" android:key="reboot_recovery" android:defaultValue="true" android:summaryOn="Reboot Recovery will be shown" android:summaryOff="Currently removed" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="EMERGENCY MODE TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/emergency" android:title="Emergency Mode Button" android:key="power_emergency" android:defaultValue="false" android:summaryOn="Emergency mode will be shown" android:summaryOff="Currently removed" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="USB Plug/Unplug WAKE UP TOGGLE" >
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/usb" android:title="USB plug in/out wakeup" android:key="usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    </PreferenceCategory>
 </PreferenceScreen>

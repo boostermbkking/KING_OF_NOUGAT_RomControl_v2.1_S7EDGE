@@ -25,8 +25,9 @@
     MAKE SURE THE ITEMS IN ALL 3 ARRAYS CORRESPOND IN ORDER AND ALL 3 ARRAYS ARE SAME LENGTH-->
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_system_ui</item>
+        <item>@drawable/ic_status_bar</item>
         <item>@drawable/ic_notification_panel</item>
-        <item>@drawable/ic_sett</item>
+        <!--<item>@drawable/ic_sett</item>-->
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_recent</item>
         <item>@drawable/ic_phone</item>
@@ -42,7 +43,8 @@
     <string-array name="nav_menu_prefs_titles">
         <item>@string/systemui</item>
         <item>@string/statusbar</item>
-        <item>@string/secsetting</item>
+        <item>@string/notification_panel</item>
+        <!--<item>@string/secsetting</item>-->
         <item>@string/touchwiz</item>
         <item>@string/recents</item>
         <item>@string/phone</item>
@@ -59,7 +61,8 @@
     <string-array name="nav_menu_xml_file_names">
         <item>systemui</item>
         <item>statusbar</item>
-        <item>settings</item>
+        <item>notification_panel</item>
+        <!--<item>settings</item>-->
         <item>touchwiz</item>
         <item>recent</item>
         <item>phone</item>

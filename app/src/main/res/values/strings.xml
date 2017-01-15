@@ -64,6 +64,7 @@
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
     <string name="systemui">SystemUI</string>
     <string name="statusbar">Statusbar</string>
+    <string name="notification_panel">Notification Panel</string>
     <string name="touchwiz">TouchWiz</string>
     <string name="recents">Recent Panel</string>
     <string name="secsetting">Settings</string>

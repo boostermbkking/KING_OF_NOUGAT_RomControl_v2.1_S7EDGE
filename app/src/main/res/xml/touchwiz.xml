@@ -2,6 +2,6 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="Touchwiz transition effect">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/tw_effect_entries" android:title="Touchwiz Page Effect" android:key="tw_page_effect" android:defaultValue="1" android:entryValues="@array/tw_effect_values" app:rebootDevice="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:icon="@drawable/appdrawer" android:entries="@array/tw_effect_entries" android:title="Touchwiz Page Effect" android:key="tw_page_effect" android:defaultValue="1" android:entryValues="@array/tw_effect_values" app:rebootDevice="true" />
     </PreferenceCategory>
 </PreferenceScreen>

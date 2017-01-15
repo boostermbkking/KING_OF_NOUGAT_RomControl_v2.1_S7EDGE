@@ -18,5 +18,14 @@
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="Rotation Lockscreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lockscreen Rotation" android:key="lockscreen_rotate" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceCategory>-->
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Coming Soon"></PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Lockscreen Rotation"></PreferenceCategory>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:icon="@drawable/lock2"
+        android:defaultValue="false"
+        android:key="lockscreen_rotate"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:title="Lockscreen Rotation"
+        app:isSilent="false"
+        app:packageNameToKill="com.android.systemui"/>
 </PreferenceScreen>

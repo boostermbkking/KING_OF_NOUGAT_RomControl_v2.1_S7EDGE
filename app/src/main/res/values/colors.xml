@@ -16,7 +16,7 @@
 	<color name="colorPrimary">#273238</color>
 	<color name="colorPrimaryDark">#ff273238</color>
 	<color name="colorAccent">#FF009184</color>
-	<color name="darkBgColor">#000000</color>
+	<color name="darkBgColor">#303030</color>
 	<color name="darkblue">#2962FF</color>
 	<color name="nav_drawer_default_color">?android:textColorPrimary</color>
 	<drawable name="transparentBg">#0000</drawable>
