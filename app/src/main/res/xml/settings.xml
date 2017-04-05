@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <!--<PreferenceCategory android:title="Settings Columns">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/dashboard_fav_columns_entries" android:title="Amount of Columns in Favorite Section" android:key="favorite_columns" android:defaultValue="4" android:entryValues="@array/dashboard_fav_columns_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/dashboard_cat_columns_entries" android:title="Amount of Columns in Category Section" android:key="category_columns" android:defaultValue="2" android:entryValues="@array/dashboard_cat_columns_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Settings Favorites Text Color" android:key="favs_text_color" android:summary="Choose favorites text color" android:defaultValue="\#FF000000" hexValue="true" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Settings Sections Text Color" android:key="settings_sections_text_color" android:summary="Choose Sections text color" android:defaultValue="\#FF000000" hexValue="true" alphaSlider="true" />
-    </PreferenceCategory>
-    <PreferenceCategory android:title="Text Size">
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="25" android:title="Settings dashboard Title size" android:key="dash_title_text" android:summary="Adjust Settings dashboard Title size" android:defaultValue="12" min="5" unitsRight=" dp" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="25" android:title="Settings Favorites Title size" android:key="dash_fav_title_text" android:summary="Adjust Settings Favorites Title size" android:defaultValue="14" min="5" unitsRight=" dp" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="25" android:title="Settings edit Favorites Title size" android:key="dash_edit_fav_title_text" android:summary="Adjust Settings Edit Favorites Title size" android:defaultValue="14" min="5" unitsRight=" dp" />
-    </PreferenceCategory>-->
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="Coming Soon" />
 </PreferenceScreen>

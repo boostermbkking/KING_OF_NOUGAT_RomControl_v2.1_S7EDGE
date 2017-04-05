@@ -13,7 +13,6 @@ import android.preference.PreferenceScreen;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -125,7 +124,7 @@ public class PrefsFragment extends PreferenceFragment implements Preference.OnPr
     private void setUpNestedPreferenceLayout(PreferenceScreen preference) {
         final Dialog dialog = preference.getDialog();
         if (dialog != null) {
-            LinearLayout rootView = (LinearLayout) dialog.findViewById(android.R.id.list).getParent();
+            LinearLayout rootView = (LinearLayout) dialog.findViewById(android.R.id.list).getParent().getParent();
             View decorView = dialog.getWindow().getDecorView();
             if (decorView != null && rootView != null) {
                 Toolbar toolbar = (Toolbar) LayoutInflater.from(getActivity()).inflate(R.layout.nested_preference_toolbar_layout, rootView, false);

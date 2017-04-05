@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <!--<PreferenceCategory android:title="Number of Toggles in a Row">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="QSPanel_NumberCount" android:summary="Number shown on screen" android:entryValues="@array/toggle_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_scroll_entries" android:title="Scrollable Toggles Shown" android:key="sysui_qs_active_tiles" android:summary="Scrolling toggle number" android:defaultValue="10" android:entryValues="@array/toggle_scroll_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Device info customization">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Enable device info view" android:key="device_info_visibility" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-    </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Text colors" android:dependency="device_info_visibility">
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Info names text color" android:key="gear_info_names_color" android:defaultValue="\#ffffffff" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Info values text color" android:key="gear_info_values_color" android:defaultValue="\#ffffffff" />
-    </PreferenceCategory>
-    -->
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Button Key Light">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/ButtonKeyLight">
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:icon="@drawable/touchkey"
         android:defaultValue="3000"
@@ -21,6 +9,6 @@
         android:entries="@array/button_key_light_entries"
         android:entryValues="@array/button_key_light_values"
         android:summary="%s"
-        android:title="Keyboard backlight duration"/>
+        android:title="@string/ButtonKeyLightduration"/>
     </PreferenceCategory>
 </PreferenceScreen>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Call Recorder in dialer app"></PreferenceCategory>
-    <PreferenceCategory android:title="Open dialer and click settings"/>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/callrectitle"></PreferenceCategory>
+    <PreferenceCategory android:title="@string/callrectitle2"/>
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/callrec4"/>
-    <PreferenceCategory android:title="Select Call Rec"/>
+    <PreferenceCategory android:title="@string/callrectitle3"/>
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/callrec2"/>
-    <PreferenceCategory android:title="Active Auto Call Rec"/>
+    <PreferenceCategory android:title="@string/callrectitle4"/>
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/callrec3"/>
 </PreferenceScreen>

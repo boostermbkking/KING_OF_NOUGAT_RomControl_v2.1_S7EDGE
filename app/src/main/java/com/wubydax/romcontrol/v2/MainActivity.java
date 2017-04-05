@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity
     public void onBackPressed() {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
         alert.setMessage(getString(R.string.exit));
-        alert.setTitle("KING ROM S7 EDGE");
+        alert.setTitle(getString(R.string.romname));
         alert.setIcon(iconexit);
         alert.setCancelable(true);
         alert.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {

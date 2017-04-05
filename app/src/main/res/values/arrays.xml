@@ -458,4 +458,22 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="multi_key_entries">
+        <item>Recents/Multi Window (default)</item>
+        <item>Kill application</item>
+        <item>Menu</item>
+    </string-array>
+    <string-array name="multi_key_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="home_key_entries">
+        <item>Menu (default)</item>
+        <item>Kill application</item>
+    </string-array>
+    <string-array name="home_key_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>

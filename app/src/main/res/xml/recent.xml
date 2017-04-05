@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <!--<PreferenceCategory android:title="RECENT PANEL OPTIONS">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Recent Panel Quick Launch" android:key="recents_quick_launch_toggle" android:defaultValue="false" android:summaryOn="Quick Launch is shown" android:summaryOff="Quick Launch is hidden" />
-    </PreferenceCategory>-->
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="RAM BAR OPTION">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ram" android:title="Ram Bar" android:key="phr_aokpram" android:defaultValue="1" android:summaryOn="Ram Bar is shown in Recent Apps" android:summaryOff="Ram Bar is hidden in Recent Apps" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram2" android:title="Free RAM Text Color" android:key="ram_color_free" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram3" android:title="Used RAM Text Color" android:key="ram_color_used" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/RAMBAROPTION">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ram" android:title="@string/RamBar" android:key="phr_aokpram" android:defaultValue="1" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram2" android:title="@string/FreeRAMTextColor" android:key="ram_color_free" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram3" android:title="@string/UsedRAMTextColor" android:key="ram_color_used" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
     </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Recent Panel Options">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/master_ball" android:title="Recent Panel Quick Launch" android:key="recents_quick_launch_toggle" android:defaultValue="false" android:summaryOn="Quick Launch is shown" android:summaryOff="Quick Launch is hidden" />
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/RecentPanelOptions">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/master_ball" android:title="@string/RecentPanelQuickLaunch" android:key="recents_quick_launch_toggle" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
     </PreferenceCategory>
 </PreferenceScreen>
