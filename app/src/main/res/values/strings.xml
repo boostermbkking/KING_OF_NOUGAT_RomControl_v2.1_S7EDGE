@@ -203,6 +203,7 @@
     <string name="DateDisplayType">Date Display Type</string>
     <string name="DateStyle">Date Style</string>
     <string name="DateFormat">Date Format</string>
+    <string name="Clock_Color">Clock Color</string>
 
     <string name="taptolanchapp">Tap to launch app</string>
     <string name="TapClockLauncherisdisabled">Tap Clock Launcher is disabled</string>

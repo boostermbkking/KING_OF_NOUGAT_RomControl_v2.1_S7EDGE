@@ -15,7 +15,7 @@
     </PreferenceCategory>
     <PreferenceCategory  android:layout="@layout/preferences_category" android:title="@string/MENUBACK">
     </PreferenceCategory>
-    <PreferenceScreen android:title="Menu and back buttons" android:icon="@drawable/menu">
+    <PreferenceScreen android:title="@string/MENUBACK" android:icon="@drawable/menu">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:icon="@drawable/menu" android:entries="@array/multi_key_entries" android:title="@string/longmenu" android:key="recent_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/multi_key_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:icon="@drawable/back" android:entries="@array/home_key_entries" android:title="@string/longback" android:key="back_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/home_key_values" />
         <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/lock2" android:title="@string/removetask" android:key="remove_killed_apps_from_recents" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
