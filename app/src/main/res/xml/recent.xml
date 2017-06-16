@@ -6,7 +6,4 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram2" android:title="@string/FreeRAMTextColor" android:key="ram_color_free" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram3" android:title="@string/UsedRAMTextColor" android:key="ram_color_used" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
     </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/RecentPanelOptions">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/master_ball" android:title="@string/RecentPanelQuickLaunch" android:key="recents_quick_launch_toggle" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
-    </PreferenceCategory>
 </PreferenceScreen>

@@ -11,4 +11,9 @@
         android:summary="%s"
         android:title="@string/ButtonKeyLightduration"/>
     </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/AOD_brightness" >
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:key="aod_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -207,5 +207,8 @@
 
     <string name="taptolanchapp">Tap to launch app</string>
     <string name="TapClockLauncherisdisabled">Tap Clock Launcher is disabled</string>
+    <string name="AOD_brightness">AOD Brightness</string>
+    <string name="opentoggleoneswipe">Open all toggle in one swipe</string>
+    <string name="singleswipequickpanel">Right swipe for Quickpanel</string>
 
 </resources>
