@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Touchwizeffect">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:icon="@drawable/appdrawer" android:entries="@array/tw_effect_entries" android:title="@string/Touchwizeffect" android:key="tw_page_effect_king" android:defaultValue="1" android:entryValues="@array/tw_effect_values" app:rebootDevice="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/DeviceInfoItemsfree" android:enabled="false">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/crown" android:title="@string/Devicemodel" android:key="device_model" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/android" android:title="@string/Androidversion" android:key="device_android_version" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/robot" android:title="@string/Buildversion" android:key="device_build_version" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/battery" android:title="@string/Batterylevel" android:key="device_battery_level" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/internet" android:title="@string/Networkname" android:key="device_network_name" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/wifi" android:title="@string/WIFIinfo" android:key="device_wifi_info" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/alarm_clock" android:title="@string/Nextalarm" android:key="device_next_alarm" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/stopwatch" android:title="@string/Deviceuptime" android:key="device_up_time" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Carrierlabeltextpreferencesfree" android:enabled="false">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:icon="@drawable/sim_card"
+                android:title="@string/Carrierlabelvisibility"
+                android:defaultValue="true"
+                android:summaryOff="@string/off"
+                android:summaryOn="@string/on"
+                android:key="carrier_label_visibility"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:icon="@drawable/pantone"
+                android:dependency="carrier_label_visibility"
+                android:defaultValue="#ffffff"
+                android:key="carrier_label_text_color"
+                android:title="@string/Carrierlabeltextcolor"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:icon="@drawable/center_alignment"
+                android:title="@string/Carrierlabeltext"
+                android:entries="@array/carrier_entries"
+                android:entryValues="@array/carrier_entry_values"
+                android:defaultValue="1"
+                app:dependentValue="0"
+                android:key="is_custom_carrier_label"
+                android:dependency="carrier_label_visibility"/>
+            <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+                android:icon="@drawable/swiss_army_knife"
+                android:title="@string/Carrierlabeltextcustom"
+                android:defaultValue="Boostermbkking"
+                android:dependency="is_custom_carrier_label"
+                android:key="custom_carrier_label"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Notificationpanelbackground">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:icon="@drawable/pacman"
+            android:defaultValue="false"
+            android:key="enable_gear_custom_bg_king"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="@string/Enablecustombackground"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:dependency="enable_gear_custom_bg_king" android:title="General bg preferences">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:icon="@drawable/image"
+            android:defaultValue="0"
+            android:entries="@array/custom_bg_type_entries"
+            android:entryValues="@array/custom_bg_type_values"
+            android:key="gear_custom_bg_type_king"
+            android:title="@string/Backgroundtype"
+            app:dependentValue="0"/>
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:defaultValue="255"
+            android:key="gear_bg_opacity_king"
+            android:title="@string/Backgroundopacity"
+            app:maxValue="255"
+            app:minValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:dependency="enable_gear_custom_bg_king"
+        android:title="@string/Customimagepreferences">
+        <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+            android:key="gear_bg_image_uri"
+            android:title="@string/SelectBgimage"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:icon="@drawable/layers"
+            android:defaultValue="0"
+            android:entries="@array/crop_entries"
+            android:entryValues="@array/crop_values"
+            android:key="gear_bg_crop_type"
+            android:title="@string/SetImageScalingType"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:dependency="enable_gear_custom_bg_king"
+        android:title="@string/Colorandgradientpreferences">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:icon="@drawable/pantone4"
+            android:defaultValue="#00000000"
+            android:dependency="gear_custom_bg_type_king"
+            android:key="gear_bg_primary_color"
+            android:title="@string/Selectprimarycolor"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:icon="@drawable/pantone6"
+            android:defaultValue="#00000000"
+            android:dependency="gear_custom_bg_type_king"
+            android:key="gear_second_gradient_color"
+            android:title="@string/SecondaryColor"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:icon="@drawable/press"
+            android:defaultValue="0"
+            android:dependency="gear_custom_bg_type_king"
+            android:entries="@array/gradient_entries"
+            android:entryValues="@array/gradient_values"
+            android:key="gear_bg_gradient_orientation"
+            android:title="@string/Gradientorientation"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/opentoggleoneswipe" >
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:icon="@drawable/tap"
+            android:title="@string/singleswipequickpanel"
+            android:key="tweaks_qs_pulldown_king"
+            android:defaultValue="true"
+            android:summaryOn="@string/on"
+            android:summaryOff="@string/off" />
+        </PreferenceCategory>
+
+</PreferenceScreen>

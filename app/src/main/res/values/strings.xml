@@ -85,6 +85,7 @@
     <string name="King_Rom_Apps">King Rom Apps</string>
     <string name="ks7info">Download Mod and Tweaks for KING of NOUGAT</string>
     <string name="minitbatteryinfo">Manage Battery Icon in StatusBar</string>
+    <string name="minitclockinfo">Manage Clock Icon in StatusBar</string>
     <string name="otainfo">Manage OTA Updater</string>
     <string name="app_utili">Usefull Apps</string>
     <string name="phoneinfo">Info About Phone</string>
@@ -98,16 +99,22 @@
     <string name="POWER_OFF_TOGGLE">POWER OFF TOGGLE</string>
     <string name="REBOOT_RECOVERY_TOGGLE">REBOOT RECOVERY TOGGLE</string>
     <string name="EMERGENCY_MODE_TOGGLE">TOGGLE EMERGENCY MODE</string>
+    <string name="EMERGENCY_MODE_TOGGLEfree">TOGGLE EMERGENCY MODE (Need Ks7 PRO)</string>
     <string name="USBPLUGIN">USB Plug/Unplug WAKE UP</string>
+    <string name="USBPLUGINfree">USB Plug/Unplug WAKE UP (Need Ks7 PRO)</string>
     <string name="USBPLUGINLITE">USB WAKE UP</string>
     <string name="MENUBACK">MENU AND BACK BUTTONS</string>
+    <string name="MENUBACKfree">MENU AND BACK BUTTONS (Need Ks7 PRO)</string>
     <string name="longmenu">Long press Menu button</string>
     <string name="longback">Long press Back button</string>
     <string name="removetask">Remove completed from the taskbar</string>
     <string name="Lockscreen_Rotation">Lockscreen Rotation</string>
+    <string name="Lockscreen_Rotationfree">Lockscreen Rotation (Need Ks7 PRO)</string>
     <string name="Touchwizeffect">Touchwiz transition effect</string>
+    <string name="Touchwizeffectfree">Touchwiz transition effect (Need Ks7 PRO)</string>
     <string name="ButtonKeyLight">Button Key Light</string>
     <string name="ButtonKeyLightduration">Keyboard backlight duration</string>
+    <string name="ButtonKeyLightdurationfree">Keyboard backlight duration (Need Ks7 PRO)</string>
     <string name="callrectitle">Call Recorder in dialer app</string>
     <string name="callrectitle2">Open dialer and click settings</string>
     <string name="callrectitle3">Select Call Rec</string>
@@ -121,6 +128,7 @@
     <string name="Brightnesslider">Brightness slider</string>
     <string name="datausage">Data usage</string>
     <string name="DeviceInfoItems">Device Info Items</string>
+    <string name="DeviceInfoItemsfree">Device Info Items (Need Ks7 PRO)</string>
     <string name="Devicemodel">Device model</string>
     <string name="Androidversion">Android version</string>
     <string name="Buildversion">Build version</string>
@@ -130,6 +138,7 @@
     <string name="Nextalarm">Next alarm</string>
     <string name="Deviceuptime">Device up time</string>
     <string name="Carrierlabeltextpreferences">Carrier label text preferences</string>
+    <string name="Carrierlabeltextpreferencesfree">Carrier label text preferences (Need Ks7 PRO)</string>
     <string name="Carrierlabelvisibility">Carrier label visibility</string>
     <string name="Carrierlabeltextcolor">Carrier label text color</string>
     <string name="Carrierlabeltext">Carrier label text</string>
@@ -149,6 +158,8 @@
     <string name="RamBar">Ram Bar</string>
     <string name="FreeRAMTextColor">Free RAM Text Color</string>
     <string name="UsedRAMTextColor">Used RAM Text Color</string>
+    <string name="FreeRAMTextColorfree">Free RAM Text Color (Need Ks7 PRO)</string>
+    <string name="UsedRAMTextColorfree">Used RAM Text Color (Need Ks7 PRO)</string>
     <string name="RecentPanelOptions">Recent Panel Options</string>
     <string name="RecentPanelQuickLaunch">Recent Panel Quick Launch</string>
     <string name="batterytoggle">battery toggle</string>
@@ -192,13 +203,16 @@
     <string name="Center">Center</string>
 
     <string name="Taponclock">Tap on clock</string>
+    <string name="Taponclockfree">Tap on clock (Need Ks7 PRO)</string>
     <string name="Taponclockapp">Tap Clock App Selection</string>
     <string name="ShowClockandDate">Show Clock and Date</string>
     <string name="UppercaseTextClock">Uppercase Text Clock</string>
     <string name="ClockFormat">Clock Format</string>
     <string name="ClockLocation">Clock Location</string>
+    <string name="ClockLocationfree">Clock Location (Need Ks7 PRO)</string>
     <string name="ClockAMPM">Clock AM/PM</string>
     <string name="ClockFontStyle">Clock Font Style</string>
+    <string name="ClockFontStylefree">Clock Font Style (Need Ks7 PRO)</string>
     <string name="ClockScaling">Clock Scaling</string>
     <string name="DateDisplayType">Date Display Type</string>
     <string name="DateStyle">Date Style</string>
@@ -210,5 +224,26 @@
     <string name="AOD_brightness">AOD Brightness</string>
     <string name="opentoggleoneswipe">Open all toggle in one swipe</string>
     <string name="singleswipequickpanel">Right swipe for Quickpanel</string>
+
+    <string name="PROFeatures">KS7 PRO Installed,\nPRO Features Unlocked</string>
+    <string name="noPROFeatures">KS7 PRO NOT Installed,\nPRO Features Locked</string>
+    <string name="installKS7PRO">INSTALL KS7 PRO TO UNLOCK ALL FEATURES</string>
+    <string name="welcome">Welcome on KS7 MODS</string>
+    <string name="welcomemsg">Welcome to the KS7 mods, with this app you will able to customize the KING OF NOUGAT ROM, there are a lot of features but some are locked, to have access to all the features you have to install the KS7 PRO app,\nDownload it by clicking the link below,\nTHANKS for your support!!!</string>
+    <string name="welcomemsgPRO">Welcome to the KS7 mods, with this app you will able to customize the King Rom S7 Edition,\nAll PRO Features Unlocked,\nTHANKS for your support!!!</string>
+    <string name="XDAThread">XDA Thread of KING OF NOUGAT ROM</string>
+    <string name="aboutKS7Rom">Usefull Links for KING OF NOUGAT ROM</string>
+    <string name="latestrom">Latest Version of Rom</string>
+    <string name="sourcecoderomcontrol">Source Code KS7 MODS</string>
+    <string name="sourcecodekingkernel">Source Code KING KERNEL</string>
+
+    <string name="CustomLogoTitlePro">CUSTOM LOGO PREFERENCES (Need KS7 PRO)</string>
+    <string name="CustomLogoTitle">CUSTOM LOGO PREFERENCES</string>
+    <string name="WarningLogoSyze">Please select image under 1 MB size, otherwise it will be laggy</string>
+    <string name="CustomLogo">Custom Logo</string>
+    <string name="LogoVisibility">Logo Visibility</string>
+    <string name="CustomLogoType">Custom Logo Type</string>
+    <string name="SelectLogoFromGallery">Select Logo From Gallery</string>
+    <string name="LogoColors">Logo Colors</string>
 
 </resources>

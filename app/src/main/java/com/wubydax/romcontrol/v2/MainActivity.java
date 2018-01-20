@@ -1,28 +1,32 @@
 package com.wubydax.romcontrol.v2;
 
+import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService;
 import com.wubydax.romcontrol.v2.utils.Constants;
 import com.wubydax.romcontrol.v2.utils.MyDialogFragment;
-import com.wubydax.romcontrol.v2.utils.SuTask;
+import com.wubydax.romcontrol.v2.utils.SuTask;																	  
+import com.karan.churi.PermissionManager.PermissionManager;
 
 import java.util.ArrayList;
 
@@ -51,6 +55,11 @@ public class MainActivity extends AppCompatActivity
     private SharedPreferences mSharedPreferences;
     private ArrayList<Integer> mNavMenuItemsIds;
 
+    PermissionManager permissionManager;
+
+    /** KS7pro boolean */
+    public boolean KS7pro = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +81,44 @@ public class MainActivity extends AppCompatActivity
         }
         setTitle(titles[lastFragmentIndex]);
         initViews();
+
+        /** boolean that return if KS7 PRO app is installed */
+        boolean isAppInstalled = appInstalledOrNot("com.boostermbkking.kingroms7edge");
+
+        /** condition for if is installed set boolean true else do nothing*/
+        if(isAppInstalled) {
+            KS7pro= true;
+            /** message for KS7 PRO Installed*/
+            Toast.makeText(getBaseContext(), getString(R.string.PROFeatures), Toast.LENGTH_LONG).show();
+
+
+        } else {
+
+            /** message for KS7 PRO NOT Installed */
+            Toast.makeText(getBaseContext(), getString(R.string.noPROFeatures), Toast.LENGTH_LONG).show();
+            Toast.makeText(getBaseContext(), getString(R.string.installKS7PRO), Toast.LENGTH_LONG).show();
+
+        }
+
+        permissionManager = new PermissionManager() {};
+        permissionManager.checkAndRequestPermissions(this);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        permissionManager.checkResult(requestCode,permissions,grantResults);
+
+    }
+
+    /** method to check if KS7 PRO app is installed */
+    private boolean appInstalledOrNot(String uri) {
+        PackageManager pm = getPackageManager();
+        try {
+            pm.getPackageInfo(uri, PackageManager.GET_ACTIVITIES);
+            return true;
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        return false;
 
     }
 
@@ -121,6 +168,10 @@ public class MainActivity extends AppCompatActivity
         alert.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
+/**                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);*/
                 finish();
             }
         });
@@ -161,12 +212,20 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (mNavMenuItemsIds.contains(id)) {
-            int index = mNavMenuItemsIds.indexOf(id);
-            loadPrefsFragment(getResources().getStringArray(R.array.nav_menu_xml_file_names)[index]);
-            setTitle(item.getTitle().toString());
-            mSharedPreferences.edit().putInt(Constants.LAST_FRAGMENT, index).apply();
-        } else {
+            if (mNavMenuItemsIds.contains(id)) {
+                int index = mNavMenuItemsIds.indexOf(id);
+                    /** change menu based on boolean */
+                    if (KS7pro==true){
+                        loadPrefsFragment(getResources().getStringArray(R.array.nav_menu_xml_file_names_PRO)[index]);
+                        setTitle(item.getTitle().toString());
+                        mSharedPreferences.edit().putInt(Constants.LAST_FRAGMENT, index).apply();
+                        } else {
+                            /** use free menu */
+                            loadPrefsFragment(getResources().getStringArray(R.array.nav_menu_xml_file_names)[index]);
+                            setTitle(item.getTitle().toString());
+                            mSharedPreferences.edit().putInt(Constants.LAST_FRAGMENT, index).apply();
+                        }
+                } else {
             switch (id) {
 
                 case R.id.themes:

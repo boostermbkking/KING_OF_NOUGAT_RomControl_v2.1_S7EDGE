@@ -476,4 +476,67 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="custom_logo_type_entries">
+        <item>Select from Gallery</item>
+        <item>King</item>
+        <item>Jeep</item>
+        <item>Flash</item>
+        <item>Java</item>
+        <item>Resurrection Remix</item>
+        <item>Pacman 1</item>
+        <item>Pacman 2</item>
+        <item>Spider 1</item>
+        <item>Spider 2</item>
+        <item>Ks7</item>
+        <item>Smile</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Love</item>
+        <item>World Wide</item>
+        <item>King 4</item>
+        <item>King 2</item>
+        <item>King 3</item>
+    </string-array>
+    <string-array name="custom_logo_drawable">
+        <item>@drawable/image</item>
+        <item>@drawable/king</item>
+        <item>@drawable/jeep</item>
+        <item>@drawable/flash</item>
+        <item>@drawable/java</item>
+        <item>@drawable/rr</item>
+        <item>@drawable/pacman1</item>
+        <item>@drawable/pacman2</item>
+        <item>@drawable/spider1</item>
+        <item>@drawable/spider2</item>
+        <item>@drawable/ks7</item>
+        <item>@drawable/smile</item>
+        <item>@drawable/male</item>
+        <item>@drawable/female</item>
+        <item>@drawable/love</item>
+        <item>@drawable/worldwide</item>
+        <item>@drawable/king4</item>
+        <item>@drawable/king2</item>
+        <item>@drawable/king3</item>
+    </string-array>
+    <string-array name="custom_logo_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
 </resources>

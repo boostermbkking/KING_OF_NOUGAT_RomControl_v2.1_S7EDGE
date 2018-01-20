@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\frameworks.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\frameworks.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\lockscreen.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\lockscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_links.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\app_links.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\systemui.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\systemui.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\phone_prefs.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\phone_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\statusbar.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\statusbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\phone.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\notification_panel.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\notification_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\settings.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\touchwiz.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\touchwiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\recent.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\recent.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ui_prefs.xml",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\xml\\ui_prefs.xml"
+    }
+]

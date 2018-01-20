@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/POWER_OFF_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/power" android:title="@string/POWER_OFF_TOGGLE" android:key="power_menu_power_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/REBOOT_RECOVERY_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/king_recovery" android:title="@string/REBOOT_RECOVERY_TOGGLE" android:key="reboot_recovery_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/EMERGENCY_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/emergency" android:title="@string/EMERGENCY_MODE_TOGGLE" android:key="power_emergency_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/USBPLUGIN" >
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/usb" android:title="@string/USBPLUGINLITE" android:key="usb_plugged_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory  android:layout="@layout/preferences_category" android:title="@string/MENUBACK">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:icon="@drawable/menu" android:entries="@array/multi_key_entries" android:title="@string/longmenu" android:key="recent_key_king" android:summary="%s" android:defaultValue="0" android:entryValues="@array/multi_key_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:icon="@drawable/back" android:entries="@array/home_key_entries" android:title="@string/longback" android:key="back_key_king" android:summary="%s" android:defaultValue="0" android:entryValues="@array/home_key_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:icon="@drawable/lock2" android:title="@string/removetask" android:key="remove_killed_apps_from_recents_king" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/RAMBAROPTION">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ram" android:title="@string/RamBar" android:key="phr_aokpram_king" android:defaultValue="1" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram2" android:title="@string/FreeRAMTextColor" android:key="ram_color_free_king" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:icon="@drawable/ram3" android:title="@string/UsedRAMTextColor" android:key="ram_color_used_king" android:defaultValue="\#ffffffff" android:dialogTitle="Ram display color" />
+    </PreferenceCategory>
+</PreferenceScreen>

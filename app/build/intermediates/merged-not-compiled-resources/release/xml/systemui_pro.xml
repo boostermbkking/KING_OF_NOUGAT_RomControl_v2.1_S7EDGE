@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/ButtonKeyLight">
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:icon="@drawable/touchkey"
+        android:defaultValue="3000"
+        android:key="button_key_light"
+        android:entries="@array/button_key_light_entries"
+        android:entryValues="@array/button_key_light_values"
+        android:summary="%s"
+        android:title="@string/ButtonKeyLightduration"/>
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/AOD_brightness" >
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:key="aod_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
+    </PreferenceCategory>-->
+
+</PreferenceScreen>

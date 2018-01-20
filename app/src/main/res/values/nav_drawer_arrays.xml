@@ -24,10 +24,10 @@
 
     MAKE SURE THE ITEMS IN ALL 3 ARRAYS CORRESPOND IN ORDER AND ALL 3 ARRAYS ARE SAME LENGTH-->
     <array name="nav_menu_prefs_drawables">
+        <item>@drawable/key</item>
         <item>@drawable/ic_system_ui</item>
         <item>@drawable/ic_status_bar</item>
         <item>@drawable/ic_notification_panel</item>
-        <!--<item>@drawable/ic_sett</item>-->
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_recent</item>
         <item>@drawable/ic_phone</item>
@@ -41,10 +41,10 @@
     Use @string reference, so later on your app can be translated with ease
     KEEP THE ORDER BETWEEN ALL YOUR ARRAYS-->
     <string-array name="nav_menu_prefs_titles">
+        <item>@string/welcome</item>
         <item>@string/systemui</item>
         <item>@string/statusbar</item>
         <item>@string/notification_panel</item>
-        <!--<item>@string/secsetting</item>-->
         <item>@string/touchwiz</item>
         <item>@string/recents</item>
         <item>@string/phone</item>
@@ -59,15 +59,29 @@
     Here you put the file names of the preference files you create in your xml directory
     THEY MUST BE PRECISE AND CASE SENSITIVE!!! DO NOT ADD .xml SUFFIX-->
     <string-array name="nav_menu_xml_file_names">
+        <item>welcome</item>
         <item>systemui</item>
         <item>statusbar</item>
         <item>notification_panel</item>
-        <!--<item>settings</item>-->
         <item>touchwiz</item>
         <item>recent</item>
         <item>phone</item>
         <item>frameworks</item>
         <item>lockscreen</item>
+        <item>app_links</item>
+    </string-array>
+
+    <!-- PRO -->
+    <string-array name="nav_menu_xml_file_names_PRO" translatable="false">
+        <item>welcome_pro</item>
+        <item>systemui_pro</item>
+        <item>statusbar_pro</item>
+        <item>notification_panel_pro</item>
+        <item>touchwiz_pro</item>
+        <item>recent_pro</item>
+        <item>phone</item>
+        <item>frameworks_pro</item>
+        <item>lockscreen_pro</item>
         <item>app_links</item>
     </string-array>
 </resources>

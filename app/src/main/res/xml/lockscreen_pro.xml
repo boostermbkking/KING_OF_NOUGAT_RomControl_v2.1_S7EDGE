@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Lockscreen_Rotation" >
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:icon="@drawable/lock2"
+            android:defaultValue="false"
+            android:key="lockscreen_rotate_king"
+            android:summaryOff="@string/off"
+            android:summaryOn="@string/on"
+            android:title="@string/Lockscreen_Rotation"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+    </PreferenceCategory>
+</PreferenceScreen>

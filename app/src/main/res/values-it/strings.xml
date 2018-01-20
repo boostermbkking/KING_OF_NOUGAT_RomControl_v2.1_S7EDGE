@@ -1,0 +1,246 @@
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016-->
+    <!--This program is free software: you can redistribute it and/or modify-->
+    <!--it under the terms of the GNU General Public License as published by-->
+    <!--the Free Software Foundation, either version 3 of the License, or-->
+    <!--(at your option) any later version.-->
+
+    <!--This program is distributed in the hope that it will be useful,-->
+    <!--but WITHOUT ANY WARRANTY; without even the implied warranty of-->
+    <!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the-->
+    <!--GNU General Public License for more details.-->
+
+    <!--You should have received a copy of the GNU General Public License-->
+    <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<resources>
+    <string name="app_name">King Mods</string>
+    <string name="romname">KING of NOUGAT</string>
+
+    <string name="navigation_drawer_open">Apri menu navigazione</string>
+    <string name="navigation_drawer_close">Chiudi menu navigazione</string>
+    <string name="off">Spento</string>
+    <string name="on">Acceso</string>
+    <string name="dialog_color_picker">Scegli il colore</string>
+    <string name="press_color_to_apply">Premi per confermare</string>
+    <string name="root_progress_dialog_title">Ottenendo i permessi di root</string>
+    <string name="root_progress_dialog_message">Attendi…</string>
+    <string name="no_su_dialog_title">Privilegi di root assenti</string>
+    <string name="no_su_dialog_message">I permessi di root non possono essere ottenuti sul vostro telefono.\n\nGran parte delle funzioni dell\'app saranno disponibili comunque. Tuttavia alcuni script e riavvi vari non funzioneranno.\n\nConsigliamo vivamente di accettare la richiesta di root al prossimo avvio, oppure applicarla manualmente nell\'applicazione di root</string>
+    <string name="no_su_dialog_dismiss_button_text">Fa lo stesso…</string>
+    <string name="command_executed_success_toast">Eseguito correttamente</string>
+    <string name="root_tools_exception_toast">File non trovato o root negato</string>
+    <string name="reboot_menu">Menu Riavvio</string>
+    <string name="reboot_device_text">Riavvia il Device</string>
+    <string name="reboot_recovery_text">Riavvia in Recovery</string>
+    <string name="reboot_ui_text">Riavvia SystemUI</string>
+    <string name="app_reboot_required_dialog_title">Applicazione richiede un riavvio</string>
+    <string name="app_reboot_required_dialog_message">Per applicare la mod è necessario il riavvio %1$s.\n\nPremere OK per riavviare ora</string>
+    <string name="theme_dialog_title">Scegli il tema</string>
+    <string name="changelog_version_title">Versione della Rom: %1$s</string>
+    <string name="backup_restore_dialog_title">Salva/Ripristina le configurazioni di King Mods</string>
+    <string name="choose_backup_dialog_title">Scegli il backup da ripristinare</string>
+    <string name="no_backup_dialog_title">Nessun backup trovato</string>
+    <string name="no_backup_dialog_message">Vuoi creare un nuovo backup adesso?</string>
+    <string name="restore_confirm_dialog_title">Per favore conferma il rispristino</string>
+    <string name="restore_confirm_message">Hai scelto di ripristinare le configurazioni da una versione precedente di King Mods.\n\nAttenzione! Tale operazione cambierà i settaggi attuali con quelli presenti nel file.\n\nNON PROCEDERE se non siete sicuri!!!.</string>
+    <string name="backup_complete_toast">Backup effettuato. Il backup si trova in\n%1$s</string>
+    <string name="restore_complete_toast">Ripristino completato</string>
+    <string name="systemui_prefs">SystemUI</string>
+    <string name="phone_prefs">Dialer</string>
+    <string name="notification_panel_prefs">Pannello di notifiche</string>
+    <string name="more_options">opzioni…</string>
+    <string name="set_theme">Imposta tema</string>
+    <string name="backup_and_restore"><![CDATA[Backup & Restore]]></string>
+    <string name="changelog">Changelog</string>
+    <string name="about_us">A proposito</string>
+    <string name="confirm_script_dialog_message">"Sei sicuro di voler eseguire %1$s?"</string>
+    <string name="run_script_confirm_dialog_title">Conferma richiesta</string>
+    <string name="run_script_confirm_dialog_positive_button">Si, esegui</string>
+    <string name="find_app">Cerca App</string>
+    <string name="reboot_required_dialog_title">Riavvio device richiesto</string>
+    <string name="reboot_required_dialog_message">>Per applicare questa modifica, e richiesto un riavvio completo. Vuoi riavviare ora?</string>
+    <string name="reboot_later_negative_button">Dopo</string>
+    <string name="reboot_now_dialog_button">Riavvia adesso</string>
+    <string name="imminent_reboot_warning">Il telefono si riavvierà IMMEDIATAMENTE dopo il completamento dello script!!!</string>
+    <string name="restore_dialog_description">Questa azione ripritinera le seguenti parti ai colori originali</string>
+    <string name="systemui">SystemUI</string>
+    <string name="statusbar">Barra di stato</string>
+    <string name="notification_panel">Pannello notifiche</string>
+    <string name="touchwiz">TouchWiz</string>
+    <string name="recents">Pannello recenti</string>
+    <string name="secsetting">Impostazioni</string>
+    <string name="phone">Telefono</string>
+    <string name="framework_prefs">Framework</string>
+    <string name="lockscreen">Schermata di blocco</string>
+    <string name="app_links">App esterne</string>
+    <string name="dsb_gradient_filter_value_0">Spento</string>
+    <string name="dsb_gradient_filter_value_1">Solo sul Desktop</string>
+    <string name="dsb_gradient_filter_value_2">Ovunque tranne che nel desktop</string>
+    <string name="dsb_gradient_filter_value_3">Acceso</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="exit"> Vuoi chiudere l\'app?</string>
+    <string name="robotocondensed_regular">RobotoCondensed-Regular</string>
+    <string name="King_Rom_Apps">Applicazioni King Rom</string>
+    <string name="ks7info">Download Mod e Tweaks per la KING of NOUGAT</string>
+    <string name="minitbatteryinfo">Impostazioni per Icona Batteria nella Barra di stato</string>
+    <string name="minitclockinfo">Impostazioni per Icona Orologio nella Barra di stato</string>
+    <string name="otainfo">Aggiornamenti OTA</string>
+    <string name="app_utili">App utili</string>
+    <string name="phoneinfo">Info sul Device</string>
+    <string name="betterbs">Info sul consumo batteria</string>
+    <string name="app_upsm">Aggiungi app all ultra risparmio energ.</string>
+    <string name="sinapseinfo">Imposta il Kernel</string>
+    <string name="Root_Apps">App Root</string>
+    <string name="supersuinfo">Gestisce permessi SU</string>
+    <string name="Sound_Control">Gestore Suoni</string>
+    <string name="soundmanager">Imposta i filtri audio della KING of NOUGAT</string>
+    <string name="POWER_OFF_TOGGLE">TOGGLE SPEGNIMENTO</string>
+    <string name="REBOOT_RECOVERY_TOGGLE">TOGGLE RIAVVIO RECOVERY</string>
+    <string name="EMERGENCY_MODE_TOGGLE">TOGGLE MODALITA\' EMERGENZA</string>
+    <string name="EMERGENCY_MODE_TOGGLEfree">TOGGLE MODALITA\' EMERGENZA (Occorre Ks7 PRO)</string>
+    <string name="USBPLUGIN">ACCENSIONE SCHERMO DAL CONNETTORE USB</string>
+    <string name="USBPLUGINfree">ACCENSIONE SCHERMO DAL CONNETTORE USB (Occorre Ks7 PRO)</string>
+    <string name="USBPLUGINLITE">ACCENSIONE SCHERMO</string>
+    <string name="MENUBACK">TASTI MENU E INDIETRO</string>
+    <string name="MENUBACKfree">TASTI MENU E INDIETRO (Occorre Ks7 PRO)</string>
+    <string name="longmenu">Pressione prolungata MENU</string>
+    <string name="longback">Pressione prolungata INDIETRO</string>
+    <string name="removetask">Rimuovi dalle app recenti</string>
+    <string name="Lockscreen_Rotation">Rotazione Schermata di blocco</string>
+    <string name="Lockscreen_Rotationfree">Rotazione Schermata di blocco (Occorre Ks7 PRO)</string>
+    <string name="Touchwizeffect">Effetti transizione Touchwiz</string>
+    <string name="Touchwizeffectfree">Effetti transizione Touchwiz (Occorre Ks7 PRO)</string>
+    <string name="ButtonKeyLight">Illuminazione tasti soft touch</string>
+    <string name="ButtonKeyLightduration">Durata illuminazione tasti</string>
+    <string name="ButtonKeyLightdurationfree">Durata illuminazione tasti</string>
+    <string name="callrectitle">Registrazione chiamate dal dialer</string>
+    <string name="callrectitle2">Apri il dialer e clicca su impostazioni</string>
+    <string name="callrectitle3">Seleziona registrazione chiamate</string>
+    <string name="callrectitle4">Attiva registrazione automatica</string>
+    <string name="Backgroundcolors">Colori di sfondo</string>
+    <string name="Expandedviewbackgroundcolor">Colori di sfondo pannello notifiche</string>
+    <string name="Header">Intestazione</string>
+    <string name="Searchbarframe">Casella di ricerca</string>
+    <string name="Searchbar">Barra di ricerca</string>
+    <string name="QuickSettings">Impostazioni rapide</string>
+    <string name="datausage">Utilizzo dati</string>
+    <string name="Brightnesslider">Barra luminosità</string>
+    <string name="DeviceInfoItems">Informazioni device</string>
+    <string name="DeviceInfoItemsfree">Informazioni device (Occorre Ks7 PRO)</string>
+    <string name="Devicemodel">Modello device</string>
+    <string name="Androidversion">Versione Android</string>
+    <string name="Buildversion">Versione Rom</string>
+    <string name="Batterylevel">Livello batteria</string>
+    <string name="Networkname">Nome rete</string>
+    <string name="WIFIinfo">WIFI info</string>
+    <string name="Nextalarm">Prossima sveglia</string>
+    <string name="Deviceuptime">Tempo accensione device</string>
+    <string name="Carrierlabeltextpreferences">Testo Etichetta Operatore</string>
+    <string name="Carrierlabeltextpreferencesfree">Testo Etichetta Operatore (Occorre Ks7 PRO)</string>
+    <string name="Carrierlabelvisibility">Visibilità Etichetta Operatore</string>
+    <string name="Carrierlabeltextcolor">Colore testo Etichetta Operatore</string>
+    <string name="Carrierlabeltext">Testo Etichetta Operatore</string>
+    <string name="Carrierlabeltextcustom">Testo personale Etichetta Operatore</string>
+    <string name="Notificationpanelbackground">Sfondo pannello di notifiche</string>
+    <string name="Enablecustombackground">Abilita sfondo personale</string>
+    <string name="Backgroundtype">Tipo di sfondo</string>
+    <string name="Backgroundopacity">Opacità dello sfondo</string>
+    <string name="Customimagepreferences">Scelta immagine personale</string>
+    <string name="SelectBgimage">Seleziona immagine di sfondo</string>
+    <string name="SetImageScalingType">Imposta ridimenzionamento immagine</string>
+    <string name="Colorandgradientpreferences">Colori e sfumature</string>
+    <string name="Selectprimarycolor">Seleziona colore primario</string>
+    <string name="SecondaryColor">Colore secondario (per sfumatura)</string>
+    <string name="Gradientorientation">Orientazione sfumatura</string>
+    <string name="RAMBAROPTION">OPZIONI BARRA RAM</string>
+    <string name="RamBar">Barra Ram</string>
+    <string name="FreeRAMTextColor">Colore testo ram libera</string>
+    <string name="UsedRAMTextColor">Colore testo ram usata</string>
+    <string name="FreeRAMTextColorfree">Colore testo ram libera (Occorre Ks7 PRO)</string>
+    <string name="UsedRAMTextColorfree">Colore testo ram usata (Occorre Ks7 PRO)</string>
+    <string name="RecentPanelOptions">Opzioni pannello recenti</string>
+    <string name="RecentPanelQuickLaunch">App rapide pannello recenti</string>
+    <string name="batterytoggle">Toggle batteria</string>
+    <string name="Minitbatteryshowhide">3Minit battery acceso/spento</string>
+    <string name="Stockbatteryshowhide">Stock battery acceso/spento</string>
+    <string name="StatusbarClockOptions">Opzioni orologio statusbar</string>
+    <string name="BatteryBar">Barra batteria</string>
+    <string name="Batterybaranimation">Animazione barra batteria</string>
+    <string name="Batterybarstyle">Stile barra batteria</string>
+    <string name="Batterybarthick">Spessore barra batteria</string>
+    <string name="Batterybarcolor">Colore barra batteria</string>
+    <string name="Batterybarcolor2">Scegli il colore della barra batteria</string>
+
+    <string name="Displayedtrafficinfo">Informazioni sul traffico Mostrato</string>
+    <string name="DisplaydatainBytes">Data in Bytes</string>
+    <string name="Showtrafficarrows">Mostra frecce data</string>
+    <string name="Arrows_position">Posizione frecce</string>
+    <string name="Autohideonlowtraffic">Nascondi con poco consumo</string>
+    <string name="Autohidethreshold">Scala del limite</string>
+    <string name="Fontstyle">Stile font</string>
+    <string name="Textsizescalefactor">Grandezza testo</string>
+    <string name="DisplayedinBytes">Mostra in Bytes</string>
+    <string name="DisplayedinBits">Mostra in Bits (default)</string>
+
+    <string name="Separatecolorsforelements">Colori separati per elementi</string>
+    <string name="Globalcolor">Colore globale</string>
+    <string name="Uploadtextcolor">Colore testo di Upload</string>
+    <string name="Downloadtextcolor">Colore testo di Download</string>
+    <string name="Trafficarrowscolor">Colore frecce</string>
+    <string name="Allelementscoloredseparately">Tutti gli elementi sono colorati separatamente</string>
+    <string name="Globalcolorallelements">Il colore verrà applicato a tutti gli elementi</string>
+
+    <string name="Networktrafficpreferences">Impostazioni contatore rete</string>
+    <string name="Networktrafficcolor">Colore contatore di rete</string>
+    <string name="VirtualButtonsLocktitle">Tasti virtuali (impostane solo uno per tipo)</string>
+    <string name="VirtualButtonsLock">Tasti virtuali di blocco</string>
+    <string name="VirtualButtonsHome">Tasti virtuali Home</string>
+    <string name="VirtualButtonsRecents">Tasti virtuali Recenti</string>
+    <string name="Rightside">Lato destro</string>
+    <string name="Leftside">Lato sinistro</string>
+    <string name="Center">Centro</string>
+
+    <string name="Taponclock">Click sull\'orologio</string>
+    <string name="Taponclockfree">Click sull\'orologio (Occorre Ks7 PRO)</string>
+    <string name="Taponclockapp">seleziona app al click</string>
+    <string name="ShowClockandDate">Mostra ora e data</string>
+    <string name="UppercaseTextClock">Testo orologio maiuscolo</string>
+    <string name="ClockFormat">Formato orologio</string>
+    <string name="ClockLocation">Posizione orologio</string>
+    <string name="ClockLocationfree">Posizione orologio (Occorre Ks7 PRO)</string>
+    <string name="ClockAMPM">Ora AM/PM</string>
+    <string name="ClockFontStyle">Font orario</string>
+    <string name="ClockFontStylefree">Font orario (Occorre Ks7 PRO)</string>
+    <string name="ClockScaling">Grandezza orologio</string>
+    <string name="DateDisplayType">Tipo di data</string>
+    <string name="DateStyle">Stile data</string>
+    <string name="DateFormat">Formato data</string>
+    <string name="Clock_Color">Colore Orologio</string>
+
+    <string name="taptolanchapp">Clicca per avviare app</string>
+    <string name="TapClockLauncherisdisabled">Avvio app disabilitato</string>
+    <string name="AOD_brightness">Luminosità AOD</string>
+    <string name="opentoggleoneswipe">Apre tutti i toggle con uno swipe</string>
+    <string name="singleswipequickpanel">Swipe da destra per Quickpanel</string>
+
+    <string name="PROFeatures">KS7 PRO Installata,\nFunzioni PRO Sbloccate</string>
+    <string name="noPROFeatures">KS7 PRO NON Installata,\nFunzioni PRO Bloccate</string>
+    <string name="installKS7PRO">INSTALLA KS7 PRO PER SBLOCCARE TUTTE LE FUNZIONI</string>
+    <string name="welcome">Benvenuto nella KS7 MODS</string>
+    <string name="welcomemsg">Benvenuto nell\'app KS7 mods, qui potrai personalizzare la KING OF NOUGAT ROM, ci sono molte funzioni e alcune sono bloccate, per avere accesso a tutte le funzioni devi installare l\'app KS7 PRO,\nscaricala cliccando il link in basso,\nGRAZIE per il supporto!!!</string>
+    <string name="welcomemsgPRO">Benvenuto nell\'app KS7 mods, qui potrai personalizzare la KING OF NOUGAT ROM,\nTUTTE le funzioni sono Sbloccate,\nGRAZIE per il supporto!!!</string>
+    <string name="XDAThread">XDA Thread della KING OF NOUGAT ROM</string>
+    <string name="aboutKS7Rom">Link Utili per KING OF NOUGAT ROM</string>
+    <string name="latestrom">Ultima Versione della Rom</string>
+    <string name="sourcecoderomcontrol">Codice Sorgente KS7 MODS</string>
+    <string name="sourcecodekingkernel">Codice Sorgente KING KERNEL</string>
+
+    <string name="CustomLogoTitlePro">PREFERENZE LOGO PERSONALIZZATO (Occorre KS7 PRO)</string>
+    <string name="CustomLogoTitle">PREFERENZE LOGO PERSONALIZZATO</string>
+    <string name="WarningLogoSyze">Per Favore, Selezionare immagini minori di 1MB, Altrimenti ci saranno Lag</string>
+    <string name="CustomLogo">Logo Personalizzato</string>
+    <string name="LogoVisibility">Visibilit\à Logo</string>
+    <string name="CustomLogoType">Tipo di Logo Personalizzato</string>
+    <string name="SelectLogoFromGallery">Seleziona Logo dalla Galleria</string>
+    <string name="LogoColors">Colore Logo</string>
+</resources>

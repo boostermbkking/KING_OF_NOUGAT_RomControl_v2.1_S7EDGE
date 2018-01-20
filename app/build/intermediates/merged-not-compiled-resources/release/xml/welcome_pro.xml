@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/logobig"/>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/welcome">
+
+        <PreferenceScreen
+            android:title="@string/welcomemsgPRO"
+            android:layout="@layout/preference_multiline"
+            android:singleLine="false">
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/aboutKS7Rom">
+        <PreferenceScreen
+            android:icon="@drawable/xdausercircledark"
+            android:title="@string/XDAThread">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/s7-edge/development/rom-kingofnougatromv1-t3498507" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/logobig"
+            android:title="Changelog">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://sites.google.com/view/kingofnougat-rom/galaxy-s7-flat-edge/changelog-for-s7" />
+        </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/download"
+        android:title="@string/latestrom">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://androidfilehost.com/f/kingofnougatlatest" />
+    </PreferenceScreen>
+
+        <PreferenceScreen
+            android:icon="@drawable/coding"
+            android:title="@string/sourcecoderomcontrol">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/boostermbkking/KING_OF_NOUGAT_RomControl_v2.1_S7EDGE" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:icon="@drawable/coding"
+            android:title="@string/sourcecodekingkernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/boostermbkking/King-Kernel_S7_Flat-Edge" />
+        </PreferenceScreen>
+</PreferenceCategory>
+
+</PreferenceScreen>
