@@ -12,8 +12,13 @@
         android:title="@string/ButtonKeyLightduration"/>
     </PreferenceCategory>
 
-    <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/AOD_brightness" >
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:key="aod_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
-    </PreferenceCategory>-->
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/restrictedsecurity">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="@string/AllowScreenshot"
+            android:key="is_flag_secure_disabled"
+            android:defaultValue="true"
+            android:summaryOn="@string/onallowscreenshot"
+            android:summaryOff="@string/offallowscreenshot" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

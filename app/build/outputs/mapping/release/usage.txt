@@ -4889,7 +4889,7 @@ com.wubydax.romcontrol.v2.R$raw
 com.wubydax.romcontrol.v2.R$string
 com.wubydax.romcontrol.v2.R$style
 com.wubydax.romcontrol.v2.R$styleable:
-    4300:4300:public R$styleable()
+    4381:4381:public R$styleable()
 com.wubydax.romcontrol.v2.R$xml
 com.wubydax.romcontrol.v2.prefs.ColorPickerDialog:
     178:178:public boolean getHexValueEnabled()
@@ -4951,3 +4951,29 @@ de.hdodenhof.circleimageview.R:
 de.hdodenhof.circleimageview.R$attr
 de.hdodenhof.circleimageview.R$styleable:
     16:16:public R$styleable()
+gr.net.maroulis.library.BuildConfig
+gr.net.maroulis.library.EasySplashScreen:
+    android.widget.TextView before_logo_tv
+    android.widget.TextView after_logo_tv
+    63:64:public gr.net.maroulis.library.EasySplashScreen withBundleExtras(android.os.Bundle)
+    101:104:public gr.net.maroulis.library.EasySplashScreen withBeforeLogoText(java.lang.String)
+    108:111:public gr.net.maroulis.library.EasySplashScreen withAfterLogoText(java.lang.String)
+    114:114:public android.widget.ImageView getLogo()
+    118:118:public android.widget.TextView getBeforeLogoTextView()
+    121:121:public android.widget.TextView getAfterLogoTextView()
+gr.net.maroulis.library.R:
+    9:9:public R()
+gr.net.maroulis.library.R$anim
+gr.net.maroulis.library.R$attr
+gr.net.maroulis.library.R$bool
+gr.net.maroulis.library.R$color
+gr.net.maroulis.library.R$dimen
+gr.net.maroulis.library.R$drawable
+gr.net.maroulis.library.R$id:
+    443:443:public R$id()
+gr.net.maroulis.library.R$integer
+gr.net.maroulis.library.R$layout:
+    550:550:public R$layout()
+gr.net.maroulis.library.R$string
+gr.net.maroulis.library.R$style
+gr.net.maroulis.library.R$styleable

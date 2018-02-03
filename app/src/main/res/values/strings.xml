@@ -19,6 +19,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="off">Off</string>
     <string name="on">On</string>
+    <string name="onallowscreenshot">On, screenshot not allowed</string>
+    <string name="offallowscreenshot">Off, screenshot allowed</string>
     <string name="dialog_color_picker">Pick Color</string>
     <string name="press_color_to_apply">Press to apply</string>
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
@@ -97,9 +99,27 @@
     <string name="Sound_Control">Sound Control</string>
     <string name="soundmanager">Set Audio Filter for KING ROM</string>
     <string name="POWER_OFF_TOGGLE">POWER OFF TOGGLE</string>
+    <string name="REBOOT_TOGGLE">REBOOT TOGGLE</string>
+    <string name="DOWNLOAD_MODE_TOGGLE">DOWNLOAD TOGGLE</string>
+    <string name="QUICKREBOOT_MODE_TOGGLETITLE">QUICKREBOOT TOGGLE (Need KS7 PRO)</string>
+    <string name="QUICKREBOOT_MODE_TOGGLE">QUICKREBOOT TOGGLE</string>
+    <string name="TORCH_MODE_TOGGLETITLE">TORCH TOGGLE (Need KS7 PRO)</string>
+    <string name="TORCH_MODE_TOGGLE">TORCH TOGGLE</string>
+    <string name="SCREENRECORD_MODE_TOGGLETITLE">SCREENRECORD TOGGLE (Need KS7 PRO)</string>
+    <string name="SCREENRECORD_MODE_TOGGLE">SCREENRECORD TOGGLE</string>
+    <string name="SCREENSHOT_MODE_TOGGLETITLE">SCREENSHOT TOGGLE (Need KS7 PRO)</string>
+    <string name="SCREENSHOT_MODE_TOGGLE">SCREENSHOT TOGGLE</string>
+    <string name="ASSISTENT_MODE_TOGGLETITLE">ASSISTENT TOGGLE (Need KS7 PRO)</string>
+    <string name="ASSISTENT_MODE_TOGGLE">ASSISTENT TOGGLE</string>
+    <string name="DATA_MODE_TOGGLETITLE">DATA TOGGLE (Need KS7 PRO)</string>
+    <string name="DATA_MODE_TOGGLE">DATA TOGGLE</string>
+    <string name="FLY_MODE_TOGGLE">FLY TOGGLE</string>
+    <string name="MULTIUSERS_MODE_TOGGLE">MULTIUSERS TOGGLE</string>
+    <string name="REBOOT_RECOVERY_TOGGLETITLE">REBOOT RECOVERY TOGGLE (Need KS7 PRO)</string>
     <string name="REBOOT_RECOVERY_TOGGLE">REBOOT RECOVERY TOGGLE</string>
     <string name="EMERGENCY_MODE_TOGGLE">TOGGLE EMERGENCY MODE</string>
     <string name="EMERGENCY_MODE_TOGGLEfree">TOGGLE EMERGENCY MODE (Need Ks7 PRO)</string>
+    <string name="SETTING_TOGGLE">TOGGLE SETTING</string>
     <string name="USBPLUGIN">USB Plug/Unplug WAKE UP</string>
     <string name="USBPLUGINfree">USB Plug/Unplug WAKE UP (Need Ks7 PRO)</string>
     <string name="USBPLUGINLITE">USB WAKE UP</string>
@@ -224,6 +244,9 @@
     <string name="AOD_brightness">AOD Brightness</string>
     <string name="opentoggleoneswipe">Open all toggle in one swipe</string>
     <string name="singleswipequickpanel">Right swipe for Quickpanel</string>
+
+    <string name="restrictedsecurity">Restricted Security</string>
+    <string name="AllowScreenshot">Deny Screenshots in Restricted Area</string>
 
     <string name="PROFeatures">KS7 PRO Installed,\nPRO Features Unlocked</string>
     <string name="noPROFeatures">KS7 PRO NOT Installed,\nPRO Features Locked</string>

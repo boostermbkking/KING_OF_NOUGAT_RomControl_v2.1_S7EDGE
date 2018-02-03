@@ -40,16 +40,16 @@
         "source": "C:\\Users\\boostermbkking\\.android\\build-cache\\6691bbdbd666fe94fd9158e081ed9224f9d363b8\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\battery6.png",
-        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\drawable\\battery6.png"
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\clock2.png",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\drawable\\clock2.png"
     },
     {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\image.png",
         "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\drawable\\image.png"
     },
     {
-        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\clock2.png",
-        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\drawable\\clock2.png"
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\battery6.png",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\drawable\\battery6.png"
     },
     {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\pantone6.png",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\boostermbkking\\.android\\build-cache\\0b4e7305a062320a8c54a79d4bea402c732205b9\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\boostermbkking\\.android\\build-cache\\6691bbdbd666fe94fd9158e081ed9224f9d363b8\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tap.png",
         "source": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\src\\main\\res\\drawable\\tap.png"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\boostermbkking\\.android\\build-cache\\6691bbdbd666fe94fd9158e081ed9224f9d363b8\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bttf3.png",

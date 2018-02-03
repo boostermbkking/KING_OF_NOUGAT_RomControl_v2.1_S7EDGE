@@ -22,11 +22,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.karan.churi.PermissionManager.PermissionManager;
 import com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService;
 import com.wubydax.romcontrol.v2.utils.Constants;
 import com.wubydax.romcontrol.v2.utils.MyDialogFragment;
-import com.wubydax.romcontrol.v2.utils.SuTask;																	  
-import com.karan.churi.PermissionManager.PermissionManager;
+import com.wubydax.romcontrol.v2.utils.SuTask;
 
 import java.util.ArrayList;
 
@@ -119,8 +119,10 @@ public class MainActivity extends AppCompatActivity
         } catch (PackageManager.NameNotFoundException e) {
         }
         return false;
-
     }
+
+    /** Check Version Of KS7 PRO */
+
 
     private void initViews() {
 

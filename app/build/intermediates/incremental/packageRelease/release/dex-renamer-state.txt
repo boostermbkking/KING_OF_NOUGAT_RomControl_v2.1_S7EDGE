@@ -1,4 +1,4 @@
-#Sat Jan 20 12:25:41 CET 2018
+#Fri Feb 02 16:25:15 CET 2018
 base.0=C\:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\transforms\\dex\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex

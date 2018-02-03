@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jan 20 12:25:41 CET 2018
+#Fri Feb 02 16:25:16 CET 2018
 1.base=C\:\\Users\\boostermbkking\\StudioProjects\\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\\app\\build\\intermediates\\assets\\release
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

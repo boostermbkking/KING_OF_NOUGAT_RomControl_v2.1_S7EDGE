@@ -4,11 +4,41 @@
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/POWER_OFF_TOGGLE">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/power" android:title="@string/POWER_OFF_TOGGLE" android:key="power_menu_power_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
     </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/DATA_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_data_network_square" android:title="@string/DATA_MODE_TOGGLE" android:key="power_data" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/FLY_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_lock_airplane_mode" android:title="@string/FLY_MODE_TOGGLE" android:key="power_airplane" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/REBOOT_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_restart_square" android:title="@string/REBOOT_TOGGLE" android:key="power_restart" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/SETTING_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ic_settings" android:title="@string/SETTING_TOGGLE" android:key="power_setting" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/REBOOT_RECOVERY_TOGGLE">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/king_recovery" android:title="@string/REBOOT_RECOVERY_TOGGLE" android:key="reboot_recovery_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
     </PreferenceCategory>
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/EMERGENCY_MODE_TOGGLE">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/emergency" android:title="@string/EMERGENCY_MODE_TOGGLE" android:key="power_emergency_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/DOWNLOAD_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_download" android:title="@string/DOWNLOAD_MODE_TOGGLE" android:key="power_download" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/QUICKREBOOT_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_fast_reboot" android:title="@string/QUICKREBOOT_MODE_TOGGLE" android:key="power_quick_reboot" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/TORCH_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_torchlight" android:title="@string/TORCH_MODE_TOGGLE" android:key="power_torch" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/SCREENRECORD_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screen_recorder" android:title="@string/SCREENRECORD_MODE_TOGGLE" android:key="power_record" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/SCREENSHOT_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screenshot" android:title="@string/SCREENSHOT_MODE_TOGGLE" android:key="power_screenshot" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/ASSISTENT_MODE_TOGGLE">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ic_action_assist_focused" android:title="@string/ASSISTENT_MODE_TOGGLE" android:key="power_assist" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
     </PreferenceCategory>
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/USBPLUGIN" >
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/usb" android:title="@string/USBPLUGINLITE" android:key="usb_plugged_king" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />

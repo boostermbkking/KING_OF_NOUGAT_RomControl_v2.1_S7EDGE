@@ -1230,7 +1230,10 @@
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="AOD_brightness">AOD Brightness</string>
+    <string name="ASSISTENT_MODE_TOGGLE">ASSISTENT TOGGLE</string>
+    <string name="ASSISTENT_MODE_TOGGLETITLE">ASSISTENT TOGGLE (Need KS7 PRO)</string>
     <string name="Allelementscoloredseparately">All elements can be colored separately</string>
+    <string name="AllowScreenshot">Deny Screenshots in Restricted Area</string>
     <string name="Androidversion">Android version</string>
     <string name="Arrows_position">Arrows position</string>
     <string name="Autohideonlowtraffic">Autohide on low traffic</string>
@@ -1271,6 +1274,9 @@
     <string name="CustomLogoTitlePro">CUSTOM LOGO PREFERENCES (Need KS7 PRO)</string>
     <string name="CustomLogoType">Custom Logo Type</string>
     <string name="Customimagepreferences">Custom image preferences</string>
+    <string name="DATA_MODE_TOGGLE">DATA TOGGLE</string>
+    <string name="DATA_MODE_TOGGLETITLE">DATA TOGGLE (Need KS7 PRO)</string>
+    <string name="DOWNLOAD_MODE_TOGGLE">DOWNLOAD TOGGLE</string>
     <string name="DateDisplayType">Date Display Type</string>
     <string name="DateFormat">Date Format</string>
     <string name="DateStyle">Date Style</string>
@@ -1287,6 +1293,7 @@
     <string name="EMERGENCY_MODE_TOGGLEfree">TOGGLE EMERGENCY MODE (Need Ks7 PRO)</string>
     <string name="Enablecustombackground">Enable custom background</string>
     <string name="Expandedviewbackgroundcolor">Expanded view background color</string>
+    <string name="FLY_MODE_TOGGLE">FLY TOGGLE</string>
     <string name="Fontstyle">Font style</string>
     <string name="FreeRAMTextColor">Free RAM Text Color</string>
     <string name="FreeRAMTextColorfree">Free RAM Text Color (Need Ks7 PRO)</string>
@@ -1302,6 +1309,7 @@
     <string name="LogoVisibility">Logo Visibility</string>
     <string name="MENUBACK">MENU AND BACK BUTTONS</string>
     <string name="MENUBACKfree">MENU AND BACK BUTTONS (Need Ks7 PRO)</string>
+    <string name="MULTIUSERS_MODE_TOGGLE">MULTIUSERS TOGGLE</string>
     <string name="Minitbatteryshowhide">3Minit battery show/hide</string>
     <string name="Networkname">Network name</string>
     <string name="Networktrafficcolor">Network traffic color</string>
@@ -1310,14 +1318,23 @@
     <string name="Notificationpanelbackground">Notification panel background</string>
     <string name="POWER_OFF_TOGGLE">POWER OFF TOGGLE</string>
     <string name="PROFeatures">KS7 PRO Installed,\nPRO Features Unlocked</string>
+    <string name="QUICKREBOOT_MODE_TOGGLE">QUICKREBOOT TOGGLE</string>
+    <string name="QUICKREBOOT_MODE_TOGGLETITLE">QUICKREBOOT TOGGLE (Need KS7 PRO)</string>
     <string name="QuickSettings">Quick Settings</string>
     <string name="RAMBAROPTION">RAM BAR OPTION</string>
     <string name="REBOOT_RECOVERY_TOGGLE">REBOOT RECOVERY TOGGLE</string>
+    <string name="REBOOT_RECOVERY_TOGGLETITLE">REBOOT RECOVERY TOGGLE (Need KS7 PRO)</string>
+    <string name="REBOOT_TOGGLE">REBOOT TOGGLE</string>
     <string name="RamBar">Ram Bar</string>
     <string name="RecentPanelOptions">Recent Panel Options</string>
     <string name="RecentPanelQuickLaunch">Recent Panel Quick Launch</string>
     <string name="Rightside">Right side</string>
     <string name="Root_Apps">Root Apps</string>
+    <string name="SCREENRECORD_MODE_TOGGLE">SCREENRECORD TOGGLE</string>
+    <string name="SCREENRECORD_MODE_TOGGLETITLE">SCREENRECORD TOGGLE (Need KS7 PRO)</string>
+    <string name="SCREENSHOT_MODE_TOGGLE">SCREENSHOT TOGGLE</string>
+    <string name="SCREENSHOT_MODE_TOGGLETITLE">SCREENSHOT TOGGLE (Need KS7 PRO)</string>
+    <string name="SETTING_TOGGLE">TOGGLE SETTING</string>
     <string name="Searchbar">Search bar</string>
     <string name="Searchbarframe">Search bar frame</string>
     <string name="SecondaryColor">Secondary Color (for gradient)</string>
@@ -1331,6 +1348,8 @@
     <string name="Sound_Control">Sound Control</string>
     <string name="StatusbarClockOptions">Statusbar Clock Options</string>
     <string name="Stockbatteryshowhide">Stock battery show/hide</string>
+    <string name="TORCH_MODE_TOGGLE">TORCH TOGGLE</string>
+    <string name="TORCH_MODE_TOGGLETITLE">TORCH TOGGLE (Need KS7 PRO)</string>
     <string name="TapClockLauncherisdisabled">Tap Clock Launcher is disabled</string>
     <string name="Taponclock">Tap on clock</string>
     <string name="Taponclockapp">Tap Clock App Selection</string>
@@ -1442,7 +1461,9 @@
     <string name="notification_panel">Notification Panel</string>
     <string name="notification_panel_prefs">Notification panel prefs</string>
     <string name="off">Off</string>
+    <string name="offallowscreenshot">Off, screenshot allowed</string>
     <string name="on">On</string>
+    <string name="onallowscreenshot">On, screenshot not allowed</string>
     <string name="opentoggleoneswipe">Open all toggle in one swipe</string>
     <string name="otainfo">Manage OTA Updater</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
@@ -1468,6 +1489,7 @@
     <string name="restore_confirm_dialog_title">Please confirm restore</string>
     <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
+    <string name="restrictedsecurity">Restricted Security</string>
     <string name="robotocondensed_regular">RobotoCondensed-Regular</string>
     <string name="rom_version_for_changelog">\nKING OF NOUGAT</string>
     <string name="romname">KING of NOUGAT</string>
@@ -1504,7 +1526,7 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -1514,6 +1536,10 @@
         <item name="navDrawerColorSelector">@color/nav_items_selector_light</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.AppStyled" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
     <style name="AppTheme.NoActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

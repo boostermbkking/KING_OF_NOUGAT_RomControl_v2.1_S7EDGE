@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\68a8470eff0e320966494d0c2adf8843\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\2257fa029aec7535352f58a263d9f0ff\AndroidManifest.xml:17:1-31:12
+MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\easy-android-splash-screen-0.0.1.aar\2bdce41e32b95622b52598c5704714cf\AndroidManifest.xml:2:1-19:12
 MERGED from [com.github.karanchuri:PermissionManager:0.1.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\PermissionManager-0.1.0.aar\1b25c82c24a7447c17ca37dbe336e72a\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\ee5ca882bd0463e4af84d0511c201375\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\e8dfa1365ad224de527c7df1416ef926\AndroidManifest.xml:17:1-28:12
@@ -19,22 +20,22 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\booster
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\e7ca65226243bf8be398c201e96d2336\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\ed308c219ebddb1be218b805f8defc81\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2272cab7697f9c4e7683662d675bade3\AndroidManifest.xml:17:1-31:12
-INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:4:11-46
 		INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:3:11-57
 	android:versionCode
 		INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,11 +72,13 @@ ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1
 	android:name
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:14:22-64
 application
-ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:16:5-46:19
+ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:16:5-47:19
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\68a8470eff0e320966494d0c2adf8843\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\68a8470eff0e320966494d0c2adf8843\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\2257fa029aec7535352f58a263d9f0ff\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\2257fa029aec7535352f58a263d9f0ff\AndroidManifest.xml:29:5-20
+MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\easy-android-splash-screen-0.0.1.aar\2bdce41e32b95622b52598c5704714cf\AndroidManifest.xml:12:5-17:19
+MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\easy-android-splash-screen-0.0.1.aar\2bdce41e32b95622b52598c5704714cf\AndroidManifest.xml:12:5-17:19
 MERGED from [com.github.karanchuri:PermissionManager:0.1.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\PermissionManager-0.1.0.aar\1b25c82c24a7447c17ca37dbe336e72a\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.karanchuri:PermissionManager:0.1.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\PermissionManager-0.1.0.aar\1b25c82c24a7447c17ca37dbe336e72a\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\ee5ca882bd0463e4af84d0511c201375\AndroidManifest.xml:29:5-20
@@ -106,6 +109,8 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\boosterm
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:20:9-41
 	tools:ignore
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:24:9-48
+	android:configChanges
+		ADDED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\easy-android-splash-screen-0.0.1.aar\2bdce41e32b95622b52598c5704714cf\AndroidManifest.xml:14:9-70
 	android:largeHeap
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:21:9-33
 	android:icon
@@ -128,7 +133,7 @@ ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:26:71-91
 	android:name
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:26:20-70
-activity#com.wubydax.romcontrol.v2.MainActivity
+activity#com.wubydax.romcontrol.v2.SplashScreen
 ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:label
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:29:13-45
@@ -154,12 +159,16 @@ ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:39:13-55
 	android:name
 		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:38:13-42
-service#com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService
-ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:42:9-45:19
-	android:exported
-		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:44:13-37
+activity#com.wubydax.romcontrol.v2.MainActivity
+ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:42:9-50
 	android:name
-		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:43:13-61
+		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:42:19-47
+service#com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService
+ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:43:9-46:19
+	android:exported
+		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml:44:13-61
 uses-sdk
 INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\AndroidManifest.xml
@@ -168,6 +177,8 @@ MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\boostermbkking\.gradle
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\68a8470eff0e320966494d0c2adf8843\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\2257fa029aec7535352f58a263d9f0ff\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\2257fa029aec7535352f58a263d9f0ff\AndroidManifest.xml:21:5-23:62
+MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\easy-android-splash-screen-0.0.1.aar\2bdce41e32b95622b52598c5704714cf\AndroidManifest.xml:8:5-10:41
+MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\easy-android-splash-screen-0.0.1.aar\2bdce41e32b95622b52598c5704714cf\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.karanchuri:PermissionManager:0.1.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\PermissionManager-0.1.0.aar\1b25c82c24a7447c17ca37dbe336e72a\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.karanchuri:PermissionManager:0.1.0] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\PermissionManager-0.1.0.aar\1b25c82c24a7447c17ca37dbe336e72a\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\ee5ca882bd0463e4af84d0511c201375\AndroidManifest.xml:21:5-23:78

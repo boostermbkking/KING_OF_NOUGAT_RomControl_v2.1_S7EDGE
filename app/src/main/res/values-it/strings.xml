@@ -19,6 +19,8 @@
     <string name="navigation_drawer_close">Chiudi menu navigazione</string>
     <string name="off">Spento</string>
     <string name="on">Acceso</string>
+    <string name="onallowscreenshot">On, screenshot disabilitati</string>
+    <string name="offallowscreenshot">Off, screenshot abilitati</string>
     <string name="dialog_color_picker">Scegli il colore</string>
     <string name="press_color_to_apply">Premi per confermare</string>
     <string name="root_progress_dialog_title">Ottenendo i permessi di root</string>
@@ -95,9 +97,27 @@
     <string name="Sound_Control">Gestore Suoni</string>
     <string name="soundmanager">Imposta i filtri audio della KING of NOUGAT</string>
     <string name="POWER_OFF_TOGGLE">TOGGLE SPEGNIMENTO</string>
+    <string name="REBOOT_TOGGLE">TOGGLE RIAVVIO</string>
+    <string name="DOWNLOAD_MODE_TOGGLE">TOGGLE MODALITA\' DOWNLOAD</string>
+    <string name="QUICKREBOOT_MODE_TOGGLE">TOGGLE RIAVVIO VELOCE</string>
+    <string name="QUICKREBOOT_MODE_TOGGLETITLE">TOGGLE RIAVVIO VELOCE (Occorre KS7 PRO)</string>
+    <string name="TORCH_MODE_TOGGLETITLE">TOGGLE TORCIA (Occorre KS7 PRO)</string>
+    <string name="TORCH_MODE_TOGGLE">TOGGLE TORCIA</string>
+    <string name="SCREENRECORD_MODE_TOGGLETITLE">TOGGLE REGISTRA SCHERMO (Occorre KS7 PRO)</string>
+    <string name="SCREENRECORD_MODE_TOGGLE">TOGGLE REGISTRA SCHERMO</string>
+    <string name="SCREENSHOT_MODE_TOGGLETITLE">TOGGLE CATTURA SCHERMO (Occorre KS7 PRO)</string>
+    <string name="SCREENSHOT_MODE_TOGGLE">TOGGLE CATTURA SCHERMO</string>
+    <string name="ASSISTENT_MODE_TOGGLETITLE">TOGGLE ASSISTENTE (Occorre KS7 PRO)</string>
+    <string name="ASSISTENT_MODE_TOGGLE">TOGGLE ASSISTENTE</string>
+    <string name="DATA_MODE_TOGGLETITLE">TOGGLE DATI (Occorre KS7 PRO)</string>
+    <string name="DATA_MODE_TOGGLE">TOGGLE DATI</string>
+    <string name="FLY_MODE_TOGGLE">TOGGLE MODALITA\' AEREO</string>
+    <string name="MULTIUSERS_MODE_TOGGLE">MULTIUSERS TOGGLE</string>
+    <string name="REBOOT_RECOVERY_TOGGLETITLE">TOGGLE RIAVVIO RECOVERY (Occorre KS7 PRO)</string>
     <string name="REBOOT_RECOVERY_TOGGLE">TOGGLE RIAVVIO RECOVERY</string>
     <string name="EMERGENCY_MODE_TOGGLE">TOGGLE MODALITA\' EMERGENZA</string>
     <string name="EMERGENCY_MODE_TOGGLEfree">TOGGLE MODALITA\' EMERGENZA (Occorre Ks7 PRO)</string>
+    <string name="SETTING_TOGGLE">TOGGLE IMPOSTAZIONI</string>
     <string name="USBPLUGIN">ACCENSIONE SCHERMO DAL CONNETTORE USB</string>
     <string name="USBPLUGINfree">ACCENSIONE SCHERMO DAL CONNETTORE USB (Occorre Ks7 PRO)</string>
     <string name="USBPLUGINLITE">ACCENSIONE SCHERMO</string>
@@ -222,6 +242,9 @@
     <string name="AOD_brightness">Luminosità AOD</string>
     <string name="opentoggleoneswipe">Apre tutti i toggle con uno swipe</string>
     <string name="singleswipequickpanel">Swipe da destra per Quickpanel</string>
+
+    <string name="restrictedsecurity">Limiti Sicurezza</string>
+    <string name="AllowScreenshot">Nega Screenshots nelle Aree Riservate</string>
 
     <string name="PROFeatures">KS7 PRO Installata,\nFunzioni PRO Sbloccate</string>
     <string name="noPROFeatures">KS7 PRO NON Installata,\nFunzioni PRO Bloccate</string>

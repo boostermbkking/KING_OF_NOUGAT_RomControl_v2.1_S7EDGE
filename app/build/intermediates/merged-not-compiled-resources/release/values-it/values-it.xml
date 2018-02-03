@@ -613,7 +613,10 @@
         <item>2</item>
     </string-array>
     <string name="AOD_brightness">Luminosità AOD</string>
+    <string name="ASSISTENT_MODE_TOGGLE">TOGGLE ASSISTENTE</string>
+    <string name="ASSISTENT_MODE_TOGGLETITLE">TOGGLE ASSISTENTE (Occorre KS7 PRO)</string>
     <string name="Allelementscoloredseparately">Tutti gli elementi sono colorati separatamente</string>
+    <string name="AllowScreenshot">Nega Screenshots nelle Aree Riservate</string>
     <string name="Androidversion">Versione Android</string>
     <string name="Arrows_position">Posizione frecce</string>
     <string name="Autohideonlowtraffic">Nascondi con poco consumo</string>
@@ -654,6 +657,9 @@
     <string name="CustomLogoTitlePro">PREFERENZE LOGO PERSONALIZZATO (Occorre KS7 PRO)</string>
     <string name="CustomLogoType">Tipo di Logo Personalizzato</string>
     <string name="Customimagepreferences">Scelta immagine personale</string>
+    <string name="DATA_MODE_TOGGLE">TOGGLE DATI</string>
+    <string name="DATA_MODE_TOGGLETITLE">TOGGLE DATI (Occorre KS7 PRO)</string>
+    <string name="DOWNLOAD_MODE_TOGGLE">TOGGLE MODALITA\' DOWNLOAD</string>
     <string name="DateDisplayType">Tipo di data</string>
     <string name="DateFormat">Formato data</string>
     <string name="DateStyle">Stile data</string>
@@ -670,6 +676,7 @@
     <string name="EMERGENCY_MODE_TOGGLEfree">TOGGLE MODALITA\' EMERGENZA (Occorre Ks7 PRO)</string>
     <string name="Enablecustombackground">Abilita sfondo personale</string>
     <string name="Expandedviewbackgroundcolor">Colori di sfondo pannello notifiche</string>
+    <string name="FLY_MODE_TOGGLE">TOGGLE MODALITA\' AEREO</string>
     <string name="Fontstyle">Stile font</string>
     <string name="FreeRAMTextColor">Colore testo ram libera</string>
     <string name="FreeRAMTextColorfree">Colore testo ram libera (Occorre Ks7 PRO)</string>
@@ -685,6 +692,7 @@
     <string name="LogoVisibility">Visibilit\à Logo</string>
     <string name="MENUBACK">TASTI MENU E INDIETRO</string>
     <string name="MENUBACKfree">TASTI MENU E INDIETRO (Occorre Ks7 PRO)</string>
+    <string name="MULTIUSERS_MODE_TOGGLE">MULTIUSERS TOGGLE</string>
     <string name="Minitbatteryshowhide">3Minit battery acceso/spento</string>
     <string name="Networkname">Nome rete</string>
     <string name="Networktrafficcolor">Colore contatore di rete</string>
@@ -693,14 +701,23 @@
     <string name="Notificationpanelbackground">Sfondo pannello di notifiche</string>
     <string name="POWER_OFF_TOGGLE">TOGGLE SPEGNIMENTO</string>
     <string name="PROFeatures">KS7 PRO Installata,\nFunzioni PRO Sbloccate</string>
+    <string name="QUICKREBOOT_MODE_TOGGLE">TOGGLE RIAVVIO VELOCE</string>
+    <string name="QUICKREBOOT_MODE_TOGGLETITLE">TOGGLE RIAVVIO VELOCE (Occorre KS7 PRO)</string>
     <string name="QuickSettings">Impostazioni rapide</string>
     <string name="RAMBAROPTION">OPZIONI BARRA RAM</string>
     <string name="REBOOT_RECOVERY_TOGGLE">TOGGLE RIAVVIO RECOVERY</string>
+    <string name="REBOOT_RECOVERY_TOGGLETITLE">TOGGLE RIAVVIO RECOVERY (Occorre KS7 PRO)</string>
+    <string name="REBOOT_TOGGLE">TOGGLE RIAVVIO</string>
     <string name="RamBar">Barra Ram</string>
     <string name="RecentPanelOptions">Opzioni pannello recenti</string>
     <string name="RecentPanelQuickLaunch">App rapide pannello recenti</string>
     <string name="Rightside">Lato destro</string>
     <string name="Root_Apps">App Root</string>
+    <string name="SCREENRECORD_MODE_TOGGLE">TOGGLE REGISTRA SCHERMO</string>
+    <string name="SCREENRECORD_MODE_TOGGLETITLE">TOGGLE REGISTRA SCHERMO (Occorre KS7 PRO)</string>
+    <string name="SCREENSHOT_MODE_TOGGLE">TOGGLE CATTURA SCHERMO</string>
+    <string name="SCREENSHOT_MODE_TOGGLETITLE">TOGGLE CATTURA SCHERMO (Occorre KS7 PRO)</string>
+    <string name="SETTING_TOGGLE">TOGGLE IMPOSTAZIONI</string>
     <string name="Searchbar">Barra di ricerca</string>
     <string name="Searchbarframe">Casella di ricerca</string>
     <string name="SecondaryColor">Colore secondario (per sfumatura)</string>
@@ -714,6 +731,8 @@
     <string name="Sound_Control">Gestore Suoni</string>
     <string name="StatusbarClockOptions">Opzioni orologio statusbar</string>
     <string name="Stockbatteryshowhide">Stock battery acceso/spento</string>
+    <string name="TORCH_MODE_TOGGLE">TOGGLE TORCIA</string>
+    <string name="TORCH_MODE_TOGGLETITLE">TOGGLE TORCIA (Occorre KS7 PRO)</string>
     <string name="TapClockLauncherisdisabled">Avvio app disabilitato</string>
     <string name="Taponclock">Click sull\'orologio</string>
     <string name="Taponclockapp">seleziona app al click</string>
@@ -808,7 +827,9 @@
     <string name="notification_panel">Pannello notifiche</string>
     <string name="notification_panel_prefs">Pannello di notifiche</string>
     <string name="off">Spento</string>
+    <string name="offallowscreenshot">Off, screenshot abilitati</string>
     <string name="on">Acceso</string>
+    <string name="onallowscreenshot">On, screenshot disabilitati</string>
     <string name="opentoggleoneswipe">Apre tutti i toggle con uno swipe</string>
     <string name="otainfo">Aggiornamenti OTA</string>
     <string name="phone">Telefono</string>
@@ -829,6 +850,7 @@
     <string name="restore_confirm_dialog_title">Per favore conferma il rispristino</string>
     <string name="restore_confirm_message">Hai scelto di ripristinare le configurazioni da una versione precedente di King Mods.\n\nAttenzione! Tale operazione cambierà i settaggi attuali con quelli presenti nel file.\n\nNON PROCEDERE se non siete sicuri!!!.</string>
     <string name="restore_dialog_description">Questa azione ripritinera le seguenti parti ai colori originali</string>
+    <string name="restrictedsecurity">Limiti Sicurezza</string>
     <string name="robotocondensed_regular">RobotoCondensed-Regular</string>
     <string name="rom_version_for_changelog">\nKING OF NOUGAT</string>
     <string name="romname">KING of NOUGAT</string>

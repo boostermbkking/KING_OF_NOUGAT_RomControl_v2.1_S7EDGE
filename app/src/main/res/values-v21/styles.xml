@@ -29,7 +29,7 @@
         <item name="android:colorBackground">@color/darkBgColor</item>
     </style>
 
-    <style name="RebootDialogTheme" parent="android:Theme.Material.Light.DarkActionBar">
+    <style name="RebootDialogTheme" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowContentOverlay">@null</item>

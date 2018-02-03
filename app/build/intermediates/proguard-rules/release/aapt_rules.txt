@@ -112,14 +112,17 @@
 # Referenced at C:\Users\boostermbkking\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\ee5ca882bd0463e4af84d0511c201375\res\layout\abc_screen_simple_overlay_action_mode.xml:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:48
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:49
 -keep class com.wubydax.romcontrol.v2.AboutActivity { <init>(...); }
 
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:38
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:53
 -keep class com.wubydax.romcontrol.v2.MainActivity { <init>(...); }
 
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:23
 -keep class com.wubydax.romcontrol.v2.MyApp { <init>(...); }
+
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:39
+-keep class com.wubydax.romcontrol.v2.SplashScreen { <init>(...); }
 
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\layout-land\dialog_color_picker.xml:60
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\layout-land\dialog_color_picker.xml:75
@@ -181,8 +184,8 @@
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\ui_prefs.xml:244
 -keep class com.wubydax.romcontrol.v2.prefs.IntentDialogPreference { <init>(...); }
 
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:19
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:19
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:49
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:49
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:6
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:7
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:8
@@ -225,10 +228,10 @@
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\ui_prefs.xml:165
 -keep class com.wubydax.romcontrol.v2.prefs.MyEditTextPreference { <init>(...); }
 
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:17
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:18
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:17
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:18
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:47
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:48
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:47
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:48
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:29
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:55
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:76
@@ -293,10 +296,30 @@
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:8
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:11
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:14
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:17
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:20
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:23
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:26
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:29
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:32
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:35
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:38
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:41
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks.xml:44
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:5
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:8
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:11
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:14
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:17
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:20
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:23
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:26
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:29
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:32
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:35
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:38
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:41
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\frameworks_pro.xml:44
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\lockscreen.xml:5
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\lockscreen_pro.xml:5
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\notification_panel.xml:16
@@ -330,6 +353,8 @@
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\statusbar_pro.xml:40
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\statusbar_pro.xml:45
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\statusbar_pro.xml:73
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\systemui.xml:16
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\systemui_pro.xml:16
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\ui_prefs.xml:33
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\ui_prefs.xml:41
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\ui_prefs.xml:52
@@ -382,7 +407,7 @@
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\xml\ui_prefs.xml:283
 -keep class com.wubydax.romcontrol.v2.prefs.UriSelectionPreference { <init>(...); }
 
-# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:53
+# Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\build\intermediates\manifests\full\release\AndroidManifest.xml:55
 -keep class com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService { <init>(...); }
 
 # Referenced at C:\Users\boostermbkking\StudioProjects\KING_OF_NOUGAT_RomControl_v2.1_S7EDGE\app\src\main\res\layout-land\reboot_layout.xml:40

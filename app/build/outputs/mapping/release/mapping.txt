@@ -14116,6 +14116,9 @@ com.wubydax.romcontrol.v2.R$styleable -> com.wubydax.romcontrol.v2.b$a:
     int ViewStubCompat_android_layout -> ViewStubCompat_android_layout
     int ViewStubCompat_android_inflatedId -> ViewStubCompat_android_inflatedId
     void <clinit>() -> <clinit>
+com.wubydax.romcontrol.v2.SplashScreen -> com.wubydax.romcontrol.v2.SplashScreen:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
 com.wubydax.romcontrol.v2.prefs.AlphaPatternDrawable -> com.wubydax.romcontrol.v2.prefs.a:
     int mRectangleSize -> a
     android.graphics.Paint mPaint -> b
@@ -14706,3 +14709,165 @@ de.hdodenhof.circleimageview.R$styleable -> de.hdodenhof.circleimageview.a$a:
     int CircleImageView_civ_border_width -> CircleImageView_civ_border_width
     int CircleImageView_civ_fill_color -> CircleImageView_civ_fill_color
     void <clinit>() -> <clinit>
+gr.net.maroulis.library.EasySplashScreen -> a.a.a.a.a:
+    android.app.Activity mActivity -> a
+    android.view.LayoutInflater mInflater -> b
+    android.widget.ImageView logo_iv -> c
+    android.widget.TextView header_tv -> d
+    android.widget.TextView footer_tv -> e
+    java.lang.String header_text -> f
+    java.lang.String footer_text -> g
+    java.lang.String before_logo_text -> h
+    java.lang.String after_logo_text -> i
+    android.widget.RelativeLayout splash_wrapper_rl -> j
+    android.os.Bundle bundle -> k
+    android.view.View mView -> l
+    int splashBackgroundColor -> m
+    int splashBackgroundResource -> n
+    int mLogo -> o
+    java.lang.Class TargetActivity -> p
+    int SPLASH_TIME_OUT -> q
+    void <init>(android.app.Activity) -> <init>
+gr.net.maroulis.library.EasySplashScreen$1 -> a.a.a.a.a$1:
+    gr.net.maroulis.library.EasySplashScreen this$0 -> a
+    void <init>(gr.net.maroulis.library.EasySplashScreen) -> <init>
+    void run() -> run
+gr.net.maroulis.library.R -> a.a.a.a.b:
+gr.net.maroulis.library.R$id -> a.a.a.a.b$a:
+    int action0 -> action0
+    int action_bar -> action_bar
+    int action_bar_activity_content -> action_bar_activity_content
+    int action_bar_container -> action_bar_container
+    int action_bar_root -> action_bar_root
+    int action_bar_spinner -> action_bar_spinner
+    int action_bar_subtitle -> action_bar_subtitle
+    int action_bar_title -> action_bar_title
+    int action_context_bar -> action_context_bar
+    int action_divider -> action_divider
+    int action_menu_divider -> action_menu_divider
+    int action_menu_presenter -> action_menu_presenter
+    int action_mode_bar -> action_mode_bar
+    int action_mode_bar_stub -> action_mode_bar_stub
+    int action_mode_close_button -> action_mode_close_button
+    int activity_chooser_view_content -> activity_chooser_view_content
+    int after_logo_tv -> after_logo_tv
+    int alertTitle -> alertTitle
+    int always -> always
+    int before_logo_tv -> before_logo_tv
+    int beginning -> beginning
+    int buttonPanel -> buttonPanel
+    int cancel_action -> cancel_action
+    int checkbox -> checkbox
+    int chronometer -> chronometer
+    int collapseActionView -> collapseActionView
+    int contentPanel -> contentPanel
+    int custom -> custom
+    int customPanel -> customPanel
+    int decor_content_parent -> decor_content_parent
+    int default_activity_button -> default_activity_button
+    int disableHome -> disableHome
+    int edit_query -> edit_query
+    int end -> end
+    int end_padder -> end_padder
+    int expand_activities_button -> expand_activities_button
+    int expanded_menu -> expanded_menu
+    int footer_tv -> footer_tv
+    int header_tv -> header_tv
+    int home -> home
+    int homeAsUp -> homeAsUp
+    int icon -> icon
+    int ifRoom -> ifRoom
+    int image -> image
+    int info -> info
+    int line1 -> line1
+    int line3 -> line3
+    int listMode -> listMode
+    int list_item -> list_item
+    int logo -> logo
+    int media_actions -> media_actions
+    int middle -> middle
+    int multiply -> multiply
+    int never -> never
+    int none -> none
+    int normal -> normal
+    int parentPanel -> parentPanel
+    int progress_circular -> progress_circular
+    int progress_horizontal -> progress_horizontal
+    int radio -> radio
+    int screen -> screen
+    int scrollIndicatorDown -> scrollIndicatorDown
+    int scrollIndicatorUp -> scrollIndicatorUp
+    int scrollView -> scrollView
+    int search_badge -> search_badge
+    int search_bar -> search_bar
+    int search_button -> search_button
+    int search_close_btn -> search_close_btn
+    int search_edit_frame -> search_edit_frame
+    int search_go_btn -> search_go_btn
+    int search_mag_icon -> search_mag_icon
+    int search_plate -> search_plate
+    int search_src_text -> search_src_text
+    int search_voice_btn -> search_voice_btn
+    int select_dialog_listview -> select_dialog_listview
+    int shortcut -> shortcut
+    int showCustom -> showCustom
+    int showHome -> showHome
+    int showTitle -> showTitle
+    int spacer -> spacer
+    int splash_wrapper_rl -> splash_wrapper_rl
+    int split_action_bar -> split_action_bar
+    int src_atop -> src_atop
+    int src_in -> src_in
+    int src_over -> src_over
+    int status_bar_latest_event_content -> status_bar_latest_event_content
+    int submit_area -> submit_area
+    int tabMode -> tabMode
+    int text -> text
+    int text2 -> text2
+    int textSpacerNoButtons -> textSpacerNoButtons
+    int time -> time
+    int title -> title
+    int title_template -> title_template
+    int topPanel -> topPanel
+    int up -> up
+    int useLogo -> useLogo
+    int withText -> withText
+    int wrap_content -> wrap_content
+gr.net.maroulis.library.R$layout -> a.a.a.a.b$b:
+    int abc_action_bar_title_item -> abc_action_bar_title_item
+    int abc_action_bar_up_container -> abc_action_bar_up_container
+    int abc_action_bar_view_list_nav_layout -> abc_action_bar_view_list_nav_layout
+    int abc_action_menu_item_layout -> abc_action_menu_item_layout
+    int abc_action_menu_layout -> abc_action_menu_layout
+    int abc_action_mode_bar -> abc_action_mode_bar
+    int abc_action_mode_close_item_material -> abc_action_mode_close_item_material
+    int abc_activity_chooser_view -> abc_activity_chooser_view
+    int abc_activity_chooser_view_list_item -> abc_activity_chooser_view_list_item
+    int abc_alert_dialog_button_bar_material -> abc_alert_dialog_button_bar_material
+    int abc_alert_dialog_material -> abc_alert_dialog_material
+    int abc_dialog_title_material -> abc_dialog_title_material
+    int abc_expanded_menu_layout -> abc_expanded_menu_layout
+    int abc_list_menu_item_checkbox -> abc_list_menu_item_checkbox
+    int abc_list_menu_item_icon -> abc_list_menu_item_icon
+    int abc_list_menu_item_layout -> abc_list_menu_item_layout
+    int abc_list_menu_item_radio -> abc_list_menu_item_radio
+    int abc_popup_menu_item_layout -> abc_popup_menu_item_layout
+    int abc_screen_content_include -> abc_screen_content_include
+    int abc_screen_simple -> abc_screen_simple
+    int abc_screen_simple_overlay_action_mode -> abc_screen_simple_overlay_action_mode
+    int abc_screen_toolbar -> abc_screen_toolbar
+    int abc_search_dropdown_item_icons_2line -> abc_search_dropdown_item_icons_2line
+    int abc_search_view -> abc_search_view
+    int abc_select_dialog_material -> abc_select_dialog_material
+    int notification_media_action -> notification_media_action
+    int notification_media_cancel_action -> notification_media_cancel_action
+    int notification_template_big_media -> notification_template_big_media
+    int notification_template_big_media_narrow -> notification_template_big_media_narrow
+    int notification_template_media -> notification_template_media
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    int select_dialog_item_material -> select_dialog_item_material
+    int select_dialog_multichoice_material -> select_dialog_multichoice_material
+    int select_dialog_singlechoice_material -> select_dialog_singlechoice_material
+    int splash -> splash
+    int support_simple_spinner_dropdown_item -> support_simple_spinner_dropdown_item
